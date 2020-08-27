@@ -115,8 +115,11 @@ This system is used [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Stan
 We encrypt user passwords, QR code data, etc.
 
 # Screenshots
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/ss1.png?raw=true)
+## Teacher Panel
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/ss1.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/ss2.png?raw=true)
 
+## Dean Panel
 
 # Conclusion 
 This attendance management system is developed for the dean, the teacher and the student. By using this system, the dean can reduce his/her daily or monthly complex jobs. He/She can easily check the underrated attendance students and then inform them. It is not necessary to manually calculate for monthly attendance. He/She does not need to do any complex task for medical leaves. For the teacher, the teacher does not need to get the attendance record paper from the student affairs and return it. It takes less times than manual system, so the teacher can teach her lesson longer.  For the student, the student can view their attendance transparently and he/she notices that if his/her attendance is underrated. He/she can also view the attended dates on the specific subject.
