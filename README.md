@@ -83,7 +83,7 @@ Subject Table
 ![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/subject.png?raw=true)
 
 Teacher Table
-![alt text]()
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/teacher.png?raw=true)
 
 Student Table
 ![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/student.png?raw=true)
