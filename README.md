@@ -2,7 +2,7 @@
 Android app for teacher for Attendance Management System project. Teacher app has the full privileges over the system such as student management, attendance management, etc.
 
 ### Get Student App Here
-[Student App Repository](https://github.com/hanlinag/ams-student) 
+Link: [Student App Repository](https://github.com/hanlinag/ams-student) 
 
 # Introduction 
 This project is “Attendance Management System”. This system is provided for  three main parts (the dean, the teacher and the student) to do taking attendance, calculating the percentage of the attendance and receiving the medical leaves. In the dean panel, the dean can accept the student attendance record that the class teacher sent. The dean can also accept the medical leaves and the system can update the corresponding student attendance automatically. She can also inform the underrated students and other important information. In the teacher panel, the teacher can generate QR code for the appropriate class time and he/she can confirm the attendance from the student and then submit to the dean. In the student panel, the student can scan the generated QR code from the teacher to get their attendance. The student can also view their attendance percentage transparently and can take the medical leaves by uploading the medical letter and choosing the dates that they were absent. 
@@ -62,46 +62,46 @@ This project is not designed for general usecase. It is designed based on the ma
 # System Design 
 ### Teacher app flowchart
 Teacher needs to login firstly by using his/her teacher-ID and password. When he can login correctly, he can generate the QR code to take attendance for his class. He receives the attendance records from the students and can check whether it is right. Then he can submit the attendance data to the dean.
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/studflowchart.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/teacherflow.png?raw=true)
 
 Dean can firstly login with her id and password. Then she can do every function in the dean panel. She can manage the information about subjects, students and teachers. She can check and notify the underrated attendance students and some information. She can also check the uploaded medical leaves from the students and then accept them. Then the system will automatically refill for their absent attendance. She can generate the student attendance record with the CSV file monthly or for each term.
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/studflowchart.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/deanflow.png?raw=true)
 
 ### Sequence Diagram
 The processes of the system describe that the teacher generates the QR code to take the attendance and the students scan this QR code to get attendance. The teacher checks the attendance data and sends to the dean by submitting the data. The student can view the attendance record and upload the medical leaves. Then the dean accepts the medical leaves and the attendance percentage will be updated. The dean manages the subjects and generates records. 
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/sequence.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/sequence.png?raw=true)
 
 ### Usecase Diagram
 Student can update his/her information and password, view his/her attendance percentage, upload medical leave letters and scan QR code to get attendance. The teachers can generate QR code for the students to take the attendance and then check the attendance information and submit the attendance record to dean. The dean can notify underrated attendance students, accept medical leave letters and update corresponding student attendance, manage all information about the subjects, students and teachers. The dean can also generate student attendance record with CSV file.
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/usecase.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/usecase.png?raw=true)
 
 ### Database Design
 Overall Design
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/overalldb.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/overalldb.png?raw=true)
 
 Subject Table
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/subject.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/subject.png?raw=true)
 
 Teacher Table
 ![alt text]()
 
 Student Table
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/student.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/student.png?raw=true)
 
 Pre-Student Table (who haven't registered yet.)
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/pre-students.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/pre-students.png?raw=true)
 
 Pending Attendance Table (Wait for the subject teacher to confirm the attendance.)
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/pending%20attendance.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/pending%20attendance.png?raw=true)
 
 Medical Leave Table
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/medical%20leave.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/medical%20leave.png?raw=true)
 
 Class Table
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/class.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/class.png?raw=true)
 
 Attendance Record Table
-![alt text](https://github.com/hanlinag/ams-student/blob/master/images/addtendance.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/addtendance.png?raw=true)
 
 # Encryption Algorithm
 This system is used [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) (Advanced Encryption Standard) algorithms. The features of AES are as follows −
