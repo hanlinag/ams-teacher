@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        tools:context=".QRGenerateActivity">
+
+   <ImageView android:layout_width="match_parent"
+              android:layout_height="350dp"
+              android:src="@drawable/qrgen"
+              android:scaleType="fitCenter"
+              android:layout_centerInParent="true"
+              android:id="@+id/qr_place_img"
+   />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/title_qr_gen"
+              android:text="4042 Android Programming "
+              android:padding="10dp"
+              android:layout_below="@+id/qr_place_img"
+              android:gravity="center_horizontal"
+
+    />
+
+</RelativeLayout>

@@ -1,0 +1,437 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ucsm.tylersai.amsteacher"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:6:5-78
+12-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:7:5-78
+13-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:8:5-80
+14-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:6:5-78
+15-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:6:22-76
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:10:5-79
+16-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:8:5-80
+17-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+18-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:12:5-97
+18-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:12:22-95
+19
+20    <permission
+20-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:14:5-16:50
+21        android:name="com.example.permission.MAPS_RECEIVE"
+21-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:15:13-63
+22        android:protectionLevel="signature" />
+22-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:16:13-48
+23
+24    <uses-permission android:name="com.example.permission.MAPS_RECEIVE" />
+24-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:18:5-74
+24-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:18:22-72
+25    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+25-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
+25-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+27        android:name="android.hardware.camera"
+27-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+30        android:name="android.hardware.camera.front"
+30-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+31        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+31-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+32    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+34        android:name="android.hardware.camera.autofocus"
+34-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+37        android:name="android.hardware.camera.flash"
+37-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+40        android:name="android.hardware.screen.landscape"
+40-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+43        android:name="android.hardware.wifi"
+43-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+45    <uses-feature
+45-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+46        android:glEsVersion="0x00020000"
+46-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+47        android:required="true" />
+47-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+48
+49    <uses-permission android:name="android.permission.WAKE_LOCK" />
+49-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
+49-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:25:22-65
+50    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+50-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+50-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+51-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+51-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+52
+53    <application
+53-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:20:5-112:19
+54        android:allowBackup="true"
+54-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:21:13-39
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0310fcbcb2434878f9ac1958d5ba59d3/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+56        android:debuggable="true"
+57        android:icon="@mipmap/ic_launcher"
+57-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:22:13-47
+58        android:label="@string/app_name"
+58-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:23:13-45
+59        android:roundIcon="@mipmap/ic_launcher_round"
+59-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:24:13-58
+60        android:supportsRtl="true"
+60-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:25:13-39
+61        android:testOnly="true"
+62        android:theme="@style/AppTheme" >
+62-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:26:13-44
+63        <activity
+63-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:27:9-30:20
+64            android:name="com.ucsm.tylersai.amsteacher.SubjectOfParticulatStudentDeanDetailActivity"
+64-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:27:19-79
+65            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+65-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:28:19-75
+66        </activity>
+67        <activity android:name="com.ucsm.tylersai.amsteacher.ViewDetailStudentDeanActivity" >
+67-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:31:9-32:20
+67-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:31:19-64
+68        </activity>
+69        <activity android:name="com.ucsm.tylersai.amsteacher.MedicalLeaveActionDeanActivity" >
+69-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:33:9-34:20
+69-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:33:19-65
+70        </activity>
+71        <activity android:name="com.ucsm.tylersai.amsteacher.SeeAllStudentMedicalLeaveActivity" >
+71-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:35:9-36:20
+71-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:35:19-68
+72        </activity>
+73        <activity android:name="com.ucsm.tylersai.amsteacher.AddClassDeanActivity" >
+73-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:37:9-38:20
+73-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:37:19-55
+74        </activity>
+75        <activity android:name="com.ucsm.tylersai.amsteacher.AddSubjectDeanActivity" >
+75-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:39:9-40:20
+75-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:39:19-57
+76        </activity>
+77        <activity android:name="com.ucsm.tylersai.amsteacher.AddTeacherDeanActivity" >
+77-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:41:9-42:20
+77-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:41:19-57
+78        </activity>
+79        <activity android:name="com.ucsm.tylersai.amsteacher.AddStudentDeanActivity" >
+79-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:43:9-44:20
+79-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:43:19-57
+80        </activity>
+81        <activity android:name="com.ucsm.tylersai.amsteacher.BroadcastActivity" >
+81-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:45:9-46:20
+81-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:45:19-52
+82        </activity>
+83        <activity android:name="com.ucsm.tylersai.amsteacher.ExportCSVActivity" >
+83-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:47:9-48:20
+83-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:47:19-52
+84        </activity>
+85        <activity
+85-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:49:9-53:20
+86            android:name="com.ucsm.tylersai.amsteacher.Main2Activity"
+86-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:50:17-46
+87            android:label="@string/title_activity_main2"
+87-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:51:17-61
+88            android:theme="@style/AppTheme.NoActionBar" >
+88-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:52:17-60
+89        </activity>
+90        <activity android:name="com.ucsm.tylersai.amsteacher.ChangePasswordActivity" >
+90-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:54:9-55:20
+90-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:54:19-57
+91        </activity>
+92        <activity
+92-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:56:9-64:20
+93            android:name="com.ucsm.tylersai.amsteacher.SplashActivity"
+93-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:57:17-47
+94            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+94-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:58:17-73
+95            <intent-filter>
+95-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:59:13-63:29
+96                <action android:name="android.intent.action.MAIN" />
+96-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:60:17-68
+96-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:60:25-66
+97
+98                <category android:name="android.intent.category.LAUNCHER" />
+98-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:62:17-76
+98-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:62:27-74
+99            </intent-filter>
+100        </activity>
+101        <activity android:name="com.ucsm.tylersai.amsteacher.QRGenerateActivity" >
+101-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:65:9-66:20
+101-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:65:19-53
+102        </activity>
+103        <activity
+103-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:67:9-72:20
+104            android:name="com.ucsm.tylersai.amsteacher.MainActivity"
+104-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:68:17-45
+105            android:label="@string/title_activity_main"
+105-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:69:17-60
+106            android:screenOrientation="portrait"
+106-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:70:17-53
+107            android:theme="@style/AppTheme.NoActionBar" >
+107-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:71:17-60
+108        </activity>
+109        <activity
+109-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:73:9-76:75
+110            android:name="com.ucsm.tylersai.amsteacher.ForgetPasswordActivity"
+110-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:74:17-55
+111            android:screenOrientation="portrait"
+111-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:75:17-53
+112            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+112-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:76:17-73
+113        <activity
+113-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:77:9-80:75
+114            android:name="com.ucsm.tylersai.amsteacher.NewPasswordActivity"
+114-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:78:17-52
+115            android:screenOrientation="portrait"
+115-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:79:17-53
+116            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+116-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:80:17-73
+117        <activity
+117-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:81:9-85:20
+118            android:name="com.ucsm.tylersai.amsteacher.LoginActivity"
+118-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:82:17-46
+119            android:screenOrientation="portrait"
+119-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:83:17-53
+120            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+120-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:84:17-73
+121        </activity>
+122        <activity
+122-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:86:9-89:75
+123            android:name="com.ucsm.tylersai.amsteacher.PinActivity"
+123-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:87:17-44
+124            android:screenOrientation="portrait"
+124-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:88:17-53
+125            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+125-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:89:17-73
+126        <activity
+126-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:90:9-93:75
+127            android:name="com.ucsm.tylersai.amsteacher.MyAccountActivity"
+127-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:91:17-50
+128            android:screenOrientation="portrait"
+128-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:92:17-53
+129            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+129-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:93:17-73
+130        <activity
+130-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:94:9-96:55
+131            android:name="com.ucsm.tylersai.amsteacher.AboutActivity"
+131-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:95:17-46
+132            android:screenOrientation="portrait" />
+132-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:96:17-53
+133        <activity
+133-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:97:9-99:55
+134            android:name="com.ucsm.tylersai.amsteacher.UpdateMyInfoActivity"
+134-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:98:17-53
+135            android:screenOrientation="portrait" />
+135-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:99:17-53
+136
+137        <meta-data
+137-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:101:9-103:72
+138            android:name="com.google.android.gms.version"
+138-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:102:17-62
+139            android:value="@integer/google_play_services_version" />
+139-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:103:17-70
+140
+141        <uses-library
+141-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:105:9-107:43
+142            android:name="org.apache.http.legacy"
+142-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:106:17-54
+143            android:required="false" />
+143-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:107:17-41
+144
+145        <meta-data
+145-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:109:9-111:64
+146            android:name="com.google.android.geo.API_KEY"
+146-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:110:17-62
+147            android:value="@string/google_map_my_own_api" />
+147-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:111:17-62
+148
+149        <activity
+149-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+150            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+150-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+151            android:clearTaskOnLaunch="true"
+151-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+152            android:screenOrientation="sensorLandscape"
+152-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+153            android:stateNotNeeded="true"
+153-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+154            android:theme="@style/zxing_CaptureTheme"
+154-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+155            android:windowSoftInputMode="stateAlwaysHidden" />
+155-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+156
+157        <service
+157-->[com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:30:9-34:19
+158            android:name="com.google.firebase.components.ComponentDiscoveryService"
+158-->[com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:30:18-89
+159            android:exported="false" >
+159-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:35:13-37
+160            <meta-data
+160-->[com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:31:13-33:85
+161                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+161-->[com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:32:17-107
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:33:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:36:13-38:85
+164                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+164-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:37:17-109
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:38:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:30:13-32:85
+167                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+167-->[com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:31:17-109
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:32:17-82
+169            <meta-data
+169-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:30:13-32:85
+170                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+170-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:31:17-139
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:32:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+173                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+173-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+175        </service>
+176
+177        <activity
+177-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:24:9-31:50
+178            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+178-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:25:13-85
+179            android:excludeFromRecents="true"
+179-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:26:13-46
+180            android:exported="true"
+180-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:27:13-36
+181            android:launchMode="singleTask"
+181-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:28:13-44
+182            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+182-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:29:13-102
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:30:13-72
+184
+185        <receiver
+185-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+186            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+186-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+187            android:enabled="true"
+187-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+188            android:exported="false" >
+188-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+189        </receiver>
+190        <receiver
+190-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+191            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+191-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+192            android:enabled="true"
+192-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+193            android:exported="true"
+193-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+194            android:permission="android.permission.INSTALL_PACKAGES" >
+194-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+195            <intent-filter>
+195-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+196                <action android:name="com.android.vending.INSTALL_REFERRER" />
+196-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+196-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+197            </intent-filter>
+198        </receiver>
+199
+200        <service
+200-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+201            android:name="com.google.android.gms.measurement.AppMeasurementService"
+201-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+202            android:enabled="true"
+202-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+203            android:exported="false" />
+203-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+204        <service
+204-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+205            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+205-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+206            android:enabled="true"
+206-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+207            android:exported="false"
+207-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+208            android:permission="android.permission.BIND_JOB_SERVICE" />
+208-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+209
+210        <receiver
+210-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+211            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+211-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+212            android:exported="true"
+212-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+213            android:permission="com.google.android.c2dm.permission.SEND" >
+213-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+214            <intent-filter>
+214-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+215                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+215-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+215-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+216            </intent-filter>
+217        </receiver>
+218
+219        <activity
+219-->[com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+220            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+220-->[com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+221            android:exported="false"
+221-->[com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+222            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+222-->[com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+223
+224        <provider
+224-->[com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+225            android:name="com.google.firebase.provider.FirebaseInitProvider"
+225-->[com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+226            android:authorities="com.ucsm.tylersai.amsteacher.firebaseinitprovider"
+226-->[com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+227            android:exported="false"
+227-->[com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+228            android:initOrder="100" />
+228-->[com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+229    </application>
+230
+231</manifest>

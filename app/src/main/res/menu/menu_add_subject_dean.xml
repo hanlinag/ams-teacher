@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/menu_dean_add_student_Add"
+          app:showAsAction="always"
+          android:orderInCategory="100"
+          android:id="@+id/menu_add_subject_dean_add"/>
+</menu>

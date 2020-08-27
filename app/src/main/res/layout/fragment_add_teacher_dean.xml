@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+              android:padding="10dp"
+             android:layout_height="match_parent"
+             tools:context=".AddTeacherFragment">
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Teacher"
+            android:id="@+id/bt_add_add_teacher"
+
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Teacher List"
+              android:layout_below="@+id/bt_add_add_teacher"
+              android:layout_gravity="center_horizontal"
+              android:gravity="center_horizontal"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"
+              android:layout_margin="5dp"
+              android:id="@+id/tv_title_teacher_list"
+    />
+
+    <ListView android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_below="@+id/tv_title_teacher_list"
+              android:id="@+id/list_view_teacher_list_add_teacher"
+    />
+
+</RelativeLayout>

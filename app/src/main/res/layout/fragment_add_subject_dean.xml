@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+                android:padding = "10dp"
+             tools:context=".AddSubjectFragment">
+
+
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Subject"
+            android:id="@+id/bt_add_add_subject"
+
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Subjects List"
+              android:layout_below="@+id/bt_add_add_subject"
+              android:layout_gravity="center_horizontal"
+              android:gravity="center_horizontal"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"
+              android:layout_margin="5dp"
+              android:id="@+id/tv_title_subject_list"
+    />
+
+    <ListView android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_below="@+id/tv_title_subject_list"
+              android:id="@+id/list_view_subject_list_add_subject"
+    />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_dashboard2"
+                android:icon="@drawable/ic_dashboard"
+                android:title="@string/menu2_dashboard"/>
+        <item
+                android:id="@+id/nav_check_in2"
+                android:icon="@drawable/ic_my_location"
+                android:title="@string/menu_check_in"/>
+<!--        <item
+                android:id="@+id/nav_record2"
+                android:icon="@drawable/ic_record"
+                android:title="@string/menu2_record"/>-->
+        <item
+                android:id="@+id/nav_collect_attendance_2"
+                android:icon="@drawable/ic_collect_attendance"
+                android:title="@string/menu2_collect_attendance"/>
+
+        <!--<item
+                android:id="@+id/nav_view_student2"
+                android:icon="@drawable/ic_view_student"
+                android:title="@string/menu2_view_student"/>-->
+        <item
+                android:id="@+id/nav_medical_leave2"
+                android:icon="@drawable/ic_medical_leave"
+                android:title="@string/menu2_medical_leave"/>
+
+        <item
+                android:id="@+id/nav_add_student2"
+                android:icon="@drawable/ic_add_student"
+                android:title="@string/menu2_add_student"/>
+        <item
+                android:id="@+id/nav_add_teacher2"
+                android:icon="@drawable/ic_add_teacher"
+                android:title="@string/menu2_add_teacher"/>
+        <item
+                android:id="@+id/nav_add_subject2"
+                android:icon="@drawable/ic_add_subject"
+                android:title="@string/menu2_add_subject"/>
+        <item
+                android:id="@+id/nav_add_class2"
+                android:icon="@drawable/ic_add_class"
+                android:title="@string/menu2_add_class"/>
+    </group>
+
+
+
+    <item android:title="Other">
+        <group android:checkableBehavior="single" >
+
+            <menu>
+            <!--<item
+                    android:id="@+id/nav_export_csv2"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/menu2_export_csv"/>-->
+            <item
+                    android:id="@+id/nav_about2"
+                    android:icon="@drawable/ic_info"
+                    android:title="@string/menu_about"/>
+            <item
+                    android:id="@+id/nav_change_password2"
+                    android:icon="@drawable/ic_tool"
+                    android:title="@string/menu2_change_password"/>
+            <item
+                    android:id="@+id/nav_log_out2"
+                    android:icon="@drawable/ic_exit"
+                    android:title="@string/menu2_log_out"/>
+
+            </menu>
+        </group>
+    </item>
+
+
+</menu>

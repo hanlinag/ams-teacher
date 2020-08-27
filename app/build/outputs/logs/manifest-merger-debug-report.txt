@@ -1,0 +1,785 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:2:1-114:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/799cc8908627fb8ab395a52b36e53ff0/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/f9e5489ab9bc46a959492246ce627f85/preference-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.GoodieBag:Pinview:v1.4] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4ad646c15635e52c83e71b62d8bbb3e5/jetified-Pinview-v1.4/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/352e501c13b24c79ddc15196eee1b935/appcompat-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:17:1-56:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ccfc4b9d34767d2397fb7f547799e3fe/zxing-1.9/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9620f01f4b52cdebb5a8891cacbefe33/jetified-core-1.9/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c707a7a0b087dde8572c16fea7c5fefe/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4cb2fbf0c846d0e140daf4806c2a7fc6/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:17:1-42:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/a64a35b0e457e390af10dd54f30e1b8d/circleimageview-3.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3dc21e8c6b151c277acb4e30d22d10f4/firebase-core-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/10bb172be1ce1abb9ca18ed8cf3b2702/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.andyxialm:ColorDialog:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/89b360b45ed3314ec74f6fe04cb324d2/ColorDialog-1.0.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/f680262de5c98cddd4aac4cb0cffd40a/jetified-hellocharts-library-1.5.8/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/e1a17b2db68ba1cf462400f826d57b07/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/90e451a807c0306b9d98341ace624bb6/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:15:1-36:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eaf74d2d9c1a162e64ef614faf2b5ad8/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7e64a1374847156dad5fa0de4dd347a1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0bd7bc2048de663358445f0e5ffa1809/firebase-analytics-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7cec1ac0b92bb726a74415becc7f608d/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4fab30d0ac487d1404a0cd7d9166d67c/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7450466e0dc2b05f5beedc56a0c7eac5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/a2f97b4c72a64f9618b3da67c762cb6c/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c45671ae969a2b119af347427f2f9a2a/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eb6a3d1e50216988e3e66a67ad4741dc/firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/46f71ebffeca0422b7567c6e06b345da/play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c5a96ebfd1c87d33571ca7d15dffdd56/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06fd22527e750457b1313004799f8534/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/75a40426a6e6926b077e19289ff1f282/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/63cfc8797877112e3ddbaf96f7c2bc7a/play-services-measurement-base-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/10e5ecfcc7182b9743a8bef18ea0ef8a/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/28936c63ab622e1075fe211655336016/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ba5426482df0df5c0a2faa2e471dfd17/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/bb327fcae673570b61c182061f89e2ea/fragment-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/120fdf74bc84bc11b28b3c00583320e5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/cda1463b0a0b2e2491a90f56f92f6383/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/fea4748a7089c7a881fbfd6804cc2f57/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eedc4baf4885f10a23f93ba2d95cc5b5/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/064a02dc48fd3c6425e450680076169c/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7a7e6bcc423d35e423634d11cfc55a9d/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/36f31caa9b64713ec8096c5c9cd3250a/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/5b07cf0dd8b7b612692e2688d6c9e31a/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/e6c30e962445d605fe3f004ef3855465/appcompat-resources-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/1bd07ff2a696f1d288a6f4d053c6e3ff/activity-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0c7e60ac06e7cbab061a33e9685c5720/vectordrawable-animated-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9b934ef55b5f370d9df0277510d7a5b3/vectordrawable-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0310fcbcb2434878f9ac1958d5ba59d3/core-1.1.0-rc01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/82aa4cfa1a0c520ac399b0f3d83ba459/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3111a9b3bac527ddd545e4c70c225afb/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/6f621aed4ff0cda8473c2e29d3ceb822/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/1704edf55635dc51c35dba94f7821244/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/cbfdebd13ee7501bb4680f1bac3ee237/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/49423455ca091a4c5509222d08fe8e46/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/fa9671add2984100c26334e53d4e076f/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/05d07d56e24681319521e89e432b48c3/lifecycle-runtime-2.1.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/42631ae629bb7e4ba33c185a8efdf1d5/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3badf14baa0c2c2d92658b6a1442953d/savedstate-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/444490b67af81f53816de2681bde6269/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eb5ca75eeb61f6bbbb37c75fe94bbd80/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/d93158dab65e220daab9a4631c0df272/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/5026be31f99da08032587630bbf6f9a6/firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:2:1-114:12
+	package
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:3:11-49
+		INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:2:1-114:12
+		INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:2:1-114:12
+		INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:7:5-78
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:10:22-77
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:12:5-97
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:12:22-95
+permission#com.example.permission.MAPS_RECEIVE
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:14:5-16:50
+	android:protectionLevel
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:16:13-48
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:15:13-63
+uses-permission#com.example.permission.MAPS_RECEIVE
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:18:22-72
+application
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:20:5-112:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/799cc8908627fb8ab395a52b36e53ff0/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/799cc8908627fb8ab395a52b36e53ff0/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.GoodieBag:Pinview:v1.4] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4ad646c15635e52c83e71b62d8bbb3e5/jetified-Pinview-v1.4/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.GoodieBag:Pinview:v1.4] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4ad646c15635e52c83e71b62d8bbb3e5/jetified-Pinview-v1.4/AndroidManifest.xml:11:5-14:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:46:5-54:19
+MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ccfc4b9d34767d2397fb7f547799e3fe/zxing-1.9/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ccfc4b9d34767d2397fb7f547799e3fe/zxing-1.9/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9620f01f4b52cdebb5a8891cacbefe33/jetified-core-1.9/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9620f01f4b52cdebb5a8891cacbefe33/jetified-core-1.9/AndroidManifest.xml:11:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4cb2fbf0c846d0e140daf4806c2a7fc6/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4cb2fbf0c846d0e140daf4806c2a7fc6/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:23:5-40:19
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/a64a35b0e457e390af10dd54f30e1b8d/circleimageview-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/a64a35b0e457e390af10dd54f30e1b8d/circleimageview-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3dc21e8c6b151c277acb4e30d22d10f4/firebase-core-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3dc21e8c6b151c277acb4e30d22d10f4/firebase-core-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/90e451a807c0306b9d98341ace624bb6/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/90e451a807c0306b9d98341ace624bb6/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:28:5-34:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eaf74d2d9c1a162e64ef614faf2b5ad8/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eaf74d2d9c1a162e64ef614faf2b5ad8/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0bd7bc2048de663358445f0e5ffa1809/firebase-analytics-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0bd7bc2048de663358445f0e5ffa1809/firebase-analytics-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7cec1ac0b92bb726a74415becc7f608d/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7cec1ac0b92bb726a74415becc7f608d/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4fab30d0ac487d1404a0cd7d9166d67c/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4fab30d0ac487d1404a0cd7d9166d67c/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eb6a3d1e50216988e3e66a67ad4741dc/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eb6a3d1e50216988e3e66a67ad4741dc/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c5a96ebfd1c87d33571ca7d15dffdd56/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c5a96ebfd1c87d33571ca7d15dffdd56/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06fd22527e750457b1313004799f8534/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06fd22527e750457b1313004799f8534/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/75a40426a6e6926b077e19289ff1f282/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/75a40426a6e6926b077e19289ff1f282/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/63cfc8797877112e3ddbaf96f7c2bc7a/play-services-measurement-base-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/63cfc8797877112e3ddbaf96f7c2bc7a/play-services-measurement-base-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/10e5ecfcc7182b9743a8bef18ea0ef8a/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/10e5ecfcc7182b9743a8bef18ea0ef8a/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/28936c63ab622e1075fe211655336016/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/28936c63ab622e1075fe211655336016/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ba5426482df0df5c0a2faa2e471dfd17/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ba5426482df0df5c0a2faa2e471dfd17/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0310fcbcb2434878f9ac1958d5ba59d3/core-1.1.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0310fcbcb2434878f9ac1958d5ba59d3/core-1.1.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3111a9b3bac527ddd545e4c70c225afb/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3111a9b3bac527ddd545e4c70c225afb/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/fa9671add2984100c26334e53d4e076f/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/fa9671add2984100c26334e53d4e076f/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0310fcbcb2434878f9ac1958d5ba59d3/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:25:13-39
+	android:label
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:23:13-45
+	android:roundIcon
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:24:13-58
+	android:icon
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:22:13-47
+	android:allowBackup
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:21:13-39
+	android:theme
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:26:13-44
+activity#com.ucsm.tylersai.amsteacher.SubjectOfParticulatStudentDeanDetailActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:27:9-30:20
+	android:theme
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:28:19-75
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:27:19-79
+activity#com.ucsm.tylersai.amsteacher.ViewDetailStudentDeanActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:31:9-32:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:31:19-64
+activity#com.ucsm.tylersai.amsteacher.MedicalLeaveActionDeanActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:33:9-34:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:33:19-65
+activity#com.ucsm.tylersai.amsteacher.SeeAllStudentMedicalLeaveActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:35:9-36:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:35:19-68
+activity#com.ucsm.tylersai.amsteacher.AddClassDeanActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:37:9-38:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:37:19-55
+activity#com.ucsm.tylersai.amsteacher.AddSubjectDeanActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:39:9-40:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:39:19-57
+activity#com.ucsm.tylersai.amsteacher.AddTeacherDeanActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:41:9-42:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:41:19-57
+activity#com.ucsm.tylersai.amsteacher.AddStudentDeanActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:43:9-44:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:43:19-57
+activity#com.ucsm.tylersai.amsteacher.BroadcastActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:45:9-46:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:45:19-52
+activity#com.ucsm.tylersai.amsteacher.ExportCSVActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:47:9-48:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:47:19-52
+activity#com.ucsm.tylersai.amsteacher.Main2Activity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:49:9-53:20
+	android:label
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:51:17-61
+	android:theme
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:52:17-60
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:50:17-46
+activity#com.ucsm.tylersai.amsteacher.ChangePasswordActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:54:9-55:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:54:19-57
+activity#com.ucsm.tylersai.amsteacher.SplashActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:56:9-64:20
+	android:theme
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:58:17-73
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:57:17-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:60:17-68
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:62:17-76
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:62:27-74
+activity#com.ucsm.tylersai.amsteacher.QRGenerateActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:65:9-66:20
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:65:19-53
+activity#com.ucsm.tylersai.amsteacher.MainActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:67:9-72:20
+	android:screenOrientation
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:70:17-53
+	android:label
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:69:17-60
+	android:theme
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:71:17-60
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:68:17-45
+activity#com.ucsm.tylersai.amsteacher.ForgetPasswordActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:73:9-76:75
+	android:screenOrientation
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:75:17-53
+	android:theme
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:76:17-73
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:74:17-55
+activity#com.ucsm.tylersai.amsteacher.NewPasswordActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:77:9-80:75
+	android:screenOrientation
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:79:17-53
+	android:theme
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:80:17-73
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:78:17-52
+activity#com.ucsm.tylersai.amsteacher.LoginActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:81:9-85:20
+	android:screenOrientation
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:83:17-53
+	android:theme
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:84:17-73
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:82:17-46
+activity#com.ucsm.tylersai.amsteacher.PinActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:86:9-89:75
+	android:screenOrientation
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:88:17-53
+	android:theme
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:89:17-73
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:87:17-44
+activity#com.ucsm.tylersai.amsteacher.MyAccountActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:90:9-93:75
+	android:screenOrientation
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:92:17-53
+	android:theme
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:93:17-73
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:91:17-50
+activity#com.ucsm.tylersai.amsteacher.AboutActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:94:9-96:55
+	android:screenOrientation
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:96:17-53
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:95:17-46
+activity#com.ucsm.tylersai.amsteacher.UpdateMyInfoActivity
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:97:9-99:55
+	android:screenOrientation
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:99:17-53
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:98:17-53
+meta-data#com.google.android.gms.version
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:101:9-103:72
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ba5426482df0df5c0a2faa2e471dfd17/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ba5426482df0df5c0a2faa2e471dfd17/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:103:17-70
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:102:17-62
+uses-library#org.apache.http.legacy
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:105:9-107:43
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:107:17-41
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:106:17-54
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:109:9-111:64
+	android:value
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:111:17-62
+	android:name
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:110:17-62
+uses-sdk
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/799cc8908627fb8ab395a52b36e53ff0/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/799cc8908627fb8ab395a52b36e53ff0/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/f9e5489ab9bc46a959492246ce627f85/preference-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/f9e5489ab9bc46a959492246ce627f85/preference-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.GoodieBag:Pinview:v1.4] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4ad646c15635e52c83e71b62d8bbb3e5/jetified-Pinview-v1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GoodieBag:Pinview:v1.4] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4ad646c15635e52c83e71b62d8bbb3e5/jetified-Pinview-v1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/352e501c13b24c79ddc15196eee1b935/appcompat-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/352e501c13b24c79ddc15196eee1b935/appcompat-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:20:5-44
+MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ccfc4b9d34767d2397fb7f547799e3fe/zxing-1.9/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ccfc4b9d34767d2397fb7f547799e3fe/zxing-1.9/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9620f01f4b52cdebb5a8891cacbefe33/jetified-core-1.9/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9620f01f4b52cdebb5a8891cacbefe33/jetified-core-1.9/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c707a7a0b087dde8572c16fea7c5fefe/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c707a7a0b087dde8572c16fea7c5fefe/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4cb2fbf0c846d0e140daf4806c2a7fc6/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4cb2fbf0c846d0e140daf4806c2a7fc6/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:21:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/a64a35b0e457e390af10dd54f30e1b8d/circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/a64a35b0e457e390af10dd54f30e1b8d/circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3dc21e8c6b151c277acb4e30d22d10f4/firebase-core-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3dc21e8c6b151c277acb4e30d22d10f4/firebase-core-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/10bb172be1ce1abb9ca18ed8cf3b2702/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/10bb172be1ce1abb9ca18ed8cf3b2702/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.andyxialm:ColorDialog:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/89b360b45ed3314ec74f6fe04cb324d2/ColorDialog-1.0.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.andyxialm:ColorDialog:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/89b360b45ed3314ec74f6fe04cb324d2/ColorDialog-1.0.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/f680262de5c98cddd4aac4cb0cffd40a/jetified-hellocharts-library-1.5.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/f680262de5c98cddd4aac4cb0cffd40a/jetified-hellocharts-library-1.5.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/e1a17b2db68ba1cf462400f826d57b07/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/e1a17b2db68ba1cf462400f826d57b07/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/90e451a807c0306b9d98341ace624bb6/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/90e451a807c0306b9d98341ace624bb6/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eaf74d2d9c1a162e64ef614faf2b5ad8/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eaf74d2d9c1a162e64ef614faf2b5ad8/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7e64a1374847156dad5fa0de4dd347a1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7e64a1374847156dad5fa0de4dd347a1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0bd7bc2048de663358445f0e5ffa1809/firebase-analytics-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0bd7bc2048de663358445f0e5ffa1809/firebase-analytics-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7cec1ac0b92bb726a74415becc7f608d/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7cec1ac0b92bb726a74415becc7f608d/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4fab30d0ac487d1404a0cd7d9166d67c/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/4fab30d0ac487d1404a0cd7d9166d67c/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7450466e0dc2b05f5beedc56a0c7eac5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7450466e0dc2b05f5beedc56a0c7eac5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/a2f97b4c72a64f9618b3da67c762cb6c/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/a2f97b4c72a64f9618b3da67c762cb6c/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c45671ae969a2b119af347427f2f9a2a/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c45671ae969a2b119af347427f2f9a2a/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eb6a3d1e50216988e3e66a67ad4741dc/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eb6a3d1e50216988e3e66a67ad4741dc/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/46f71ebffeca0422b7567c6e06b345da/play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/46f71ebffeca0422b7567c6e06b345da/play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c5a96ebfd1c87d33571ca7d15dffdd56/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/c5a96ebfd1c87d33571ca7d15dffdd56/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06fd22527e750457b1313004799f8534/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06fd22527e750457b1313004799f8534/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/75a40426a6e6926b077e19289ff1f282/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/75a40426a6e6926b077e19289ff1f282/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/63cfc8797877112e3ddbaf96f7c2bc7a/play-services-measurement-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/63cfc8797877112e3ddbaf96f7c2bc7a/play-services-measurement-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/10e5ecfcc7182b9743a8bef18ea0ef8a/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/10e5ecfcc7182b9743a8bef18ea0ef8a/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/28936c63ab622e1075fe211655336016/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/28936c63ab622e1075fe211655336016/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ba5426482df0df5c0a2faa2e471dfd17/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ba5426482df0df5c0a2faa2e471dfd17/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/bb327fcae673570b61c182061f89e2ea/fragment-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/bb327fcae673570b61c182061f89e2ea/fragment-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/120fdf74bc84bc11b28b3c00583320e5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/120fdf74bc84bc11b28b3c00583320e5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/cda1463b0a0b2e2491a90f56f92f6383/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/cda1463b0a0b2e2491a90f56f92f6383/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/fea4748a7089c7a881fbfd6804cc2f57/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/fea4748a7089c7a881fbfd6804cc2f57/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eedc4baf4885f10a23f93ba2d95cc5b5/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eedc4baf4885f10a23f93ba2d95cc5b5/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/064a02dc48fd3c6425e450680076169c/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/064a02dc48fd3c6425e450680076169c/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7a7e6bcc423d35e423634d11cfc55a9d/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7a7e6bcc423d35e423634d11cfc55a9d/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/36f31caa9b64713ec8096c5c9cd3250a/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/36f31caa9b64713ec8096c5c9cd3250a/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/5b07cf0dd8b7b612692e2688d6c9e31a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/5b07cf0dd8b7b612692e2688d6c9e31a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/e6c30e962445d605fe3f004ef3855465/appcompat-resources-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/e6c30e962445d605fe3f004ef3855465/appcompat-resources-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/1bd07ff2a696f1d288a6f4d053c6e3ff/activity-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/1bd07ff2a696f1d288a6f4d053c6e3ff/activity-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0c7e60ac06e7cbab061a33e9685c5720/vectordrawable-animated-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0c7e60ac06e7cbab061a33e9685c5720/vectordrawable-animated-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9b934ef55b5f370d9df0277510d7a5b3/vectordrawable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9b934ef55b5f370d9df0277510d7a5b3/vectordrawable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0310fcbcb2434878f9ac1958d5ba59d3/core-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0310fcbcb2434878f9ac1958d5ba59d3/core-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/82aa4cfa1a0c520ac399b0f3d83ba459/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/82aa4cfa1a0c520ac399b0f3d83ba459/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3111a9b3bac527ddd545e4c70c225afb/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3111a9b3bac527ddd545e4c70c225afb/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/6f621aed4ff0cda8473c2e29d3ceb822/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/6f621aed4ff0cda8473c2e29d3ceb822/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/1704edf55635dc51c35dba94f7821244/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/1704edf55635dc51c35dba94f7821244/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/cbfdebd13ee7501bb4680f1bac3ee237/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/cbfdebd13ee7501bb4680f1bac3ee237/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/49423455ca091a4c5509222d08fe8e46/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/49423455ca091a4c5509222d08fe8e46/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/fa9671add2984100c26334e53d4e076f/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/fa9671add2984100c26334e53d4e076f/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/05d07d56e24681319521e89e432b48c3/lifecycle-runtime-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/05d07d56e24681319521e89e432b48c3/lifecycle-runtime-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/42631ae629bb7e4ba33c185a8efdf1d5/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/42631ae629bb7e4ba33c185a8efdf1d5/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3badf14baa0c2c2d92658b6a1442953d/savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/3badf14baa0c2c2d92658b6a1442953d/savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/444490b67af81f53816de2681bde6269/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/444490b67af81f53816de2681bde6269/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eb5ca75eeb61f6bbbb37c75fe94bbd80/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/eb5ca75eeb61f6bbbb37c75fe94bbd80/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/d93158dab65e220daab9a4631c0df272/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/d93158dab65e220daab9a4631c0df272/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/5026be31f99da08032587630bbf6f9a6/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/5026be31f99da08032587630bbf6f9a6/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:30:18-89
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:32:17-107
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:37:17-109
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:31:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/492a5035bb2b2d53f136d832efc3e401/play-services-measurement-impl-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/33a7758400a3abe9acc458add4aa0a49/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:13:13-77

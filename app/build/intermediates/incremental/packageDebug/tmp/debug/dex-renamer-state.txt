@@ -1,0 +1,4 @@
+#Thu Aug 27 11:53:45 MMT 2020
+base.0=/Users/tylersai/Downloads/AMSTeacher/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

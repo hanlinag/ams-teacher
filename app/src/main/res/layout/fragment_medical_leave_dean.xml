@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:padding="10dp"
+              android:orientation="vertical"
+             tools:context=".MedicalLeaveFragment">
+
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Review Finished Data"
+            android:id="@+id/bt_see_all_data_medical_leave_dean"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="The following list contains data of unfinished review for medical leave only."
+              android:textStyle="italic"
+              android:layout_below="@+id/bt_see_all_data_medical_leave_dean"
+              android:id="@+id/tv_warning_medical_leave_dean"
+              android:textSize="11sp"
+    />
+
+    <ListView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/tv_warning_medical_leave_dean"
+              android:id="@+id/list_view_medical_leave_dean"
+    />
+
+</RelativeLayout>

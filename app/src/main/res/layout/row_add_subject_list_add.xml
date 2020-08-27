@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_alignParentLeft="true"
+                  android:layout_centerInParent="true"
+    >
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="subjectcode"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:id="@+id/tv_subject_code_add_subject"
+    />
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="subject name"
+              android:id="@+id/tv_subject_name_add_subject"
+    />
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="teacher id "
+                  android:id="@+id/tv_subject_teacher_id_add_subject"
+        />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="day"
+              android:id="@+id/tv_subject_day_add_subject"
+    />
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="room"
+              android:textSize="16sp"
+              android:id="@+id/tv_room_add_subject"
+              android:layout_alignParentRight="true"
+              android:layout_centerInParent="true"
+    />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+                android:padding="10dp"
+             tools:context=".AddStudentFragment">
+    <Spinner android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:spinnerMode="dropdown"
+             android:id="@+id/spinner_major_class_student"
+    />
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_major_class_student"
+            android:text="Add Student"
+            android:id="@+id/bt_add_student_student"
+    />
+
+    <ListView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/bt_add_student_student"
+              android:id="@+id/pre_student_list_view_add_student"
+    />
+
+</RelativeLayout>
