@@ -39,6 +39,13 @@ Well, we also considered for that case too. Here's how we did:
 - QRCode will be expired in 5 minutes. 
 - Attendance only counts if the subject teacher press the CONFIRM button. 
 
+To avoid the wrong time and classroom, 
+- We also validate the timetable for the teacher to collect attendance.
+- If it's not on the data and time of the particular subject (For example, Monday from 9 - 10,). 
+- If you're on Tuesday or at 10:30 AM, you cannot collect the attendance (system will not allow you to generate the attendance QRCode).
+- After students scan the QRCode teacher provided, the teacher can know ubsent students, current students in class, and toal students registered in the current class.
+- By the time teacher press CONFIRM button, the attendance records will be stored in the database. 
+
 
 ## Will it work for me?
 This project is not designed for general usecase. It is designed based on the manual system of [University of Computer Studies, Mandalay](https://www.ucsm.edu.mm). Author is a computer science student who's studying in there majoring in Knowledge Engineering. But you can change some code it work with yours. Hope this can help you in some way, as the reference.
@@ -120,6 +127,10 @@ We encrypt user passwords, QR code data, etc.
 ![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/ss2.png?raw=true)
 
 ## Dean Panel
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/ss3.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/ss4.png?raw=true)
+![alt text](https://github.com/hanlinag/ams-teacher/blob/master/images/ss5.png?raw=true)
+
 
 # Conclusion 
 This attendance management system is developed for the dean, the teacher and the student. By using this system, the dean can reduce his/her daily or monthly complex jobs. He/She can easily check the underrated attendance students and then inform them. It is not necessary to manually calculate for monthly attendance. He/She does not need to do any complex task for medical leaves. For the teacher, the teacher does not need to get the attendance record paper from the student affairs and return it. It takes less times than manual system, so the teacher can teach her lesson longer.  For the student, the student can view their attendance transparently and he/she notices that if his/her attendance is underrated. He/she can also view the attended dates on the specific subject.
