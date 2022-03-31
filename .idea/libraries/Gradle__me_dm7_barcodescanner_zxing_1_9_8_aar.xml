@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: me.dm7.barcodescanner:zxing:1.9.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5e2e0379d2af5b107b0d1fa9e3062364/transformed/jetified-zxing-1.9.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5e2e0379d2af5b107b0d1fa9e3062364/transformed/jetified-zxing-1.9.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5e2e0379d2af5b107b0d1fa9e3062364/transformed/jetified-zxing-1.9.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="19"
-        android:targetSdkVersion="28" />
+        android:minSdkVersion="26"
+        android:targetSdkVersion="32" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -46,14 +46,21 @@
         android:glEsVersion="0x00020000"
         android:required="true" />
 
+    <queries>
+
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
+
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
+        android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -61,36 +68,26 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.SubjectOfParticulatStudentDeanDetailActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.ViewDetailStudentDeanActivity" >
-        </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.MedicalLeaveActionDeanActivity" >
-        </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.SeeAllStudentMedicalLeaveActivity" >
-        </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.AddClassDeanActivity" >
-        </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.AddSubjectDeanActivity" >
-        </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.AddTeacherDeanActivity" >
-        </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.AddStudentDeanActivity" >
-        </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.BroadcastActivity" >
-        </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.ExportCSVActivity" >
-        </activity>
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.SubjectOfParticularStudentDeanDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.ViewDetailStudentDeanActivity" />
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.MedicalLeaveActionDeanActivity" />
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.SeeAllStudentMedicalLeaveActivity" />
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.AddClassDeanActivity" />
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.AddSubjectDeanActivity" />
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.AddTeacherDeanActivity" />
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.AddStudentDeanActivity" />
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.BroadcastActivity" />
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.ExportCSVActivity" />
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.Main2Activity"
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.Main2Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.ChangePasswordActivity" >
-        </activity>
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.ChangePasswordActivity" />
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.SplashActivity"
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.SplashActivity"
+            android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -98,40 +95,39 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.ucsm.tylersai.amsteacher.QRGenerateActivity" >
-        </activity>
+        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.QRGenerateActivity" />
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.MainActivity"
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.ForgetPasswordActivity"
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.ForgetPasswordActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.NewPasswordActivity"
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.NewPasswordActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.LoginActivity"
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         </activity>
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.PinActivity"
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.PinActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.MyAccountActivity"
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.MyAccountActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.AboutActivity"
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.ucsm.tylersai.amsteacher.UpdateMyInfoActivity"
+            android:name="com.ucsm.tylersai.amsteacher.ui.activity.UpdateMyInfoActivity"
             android:screenOrientation="portrait" />
 
         <meta-data
@@ -153,15 +149,52 @@
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
             android:exported="false" >
             <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
@@ -170,31 +203,33 @@
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+
         <activity
-            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-            android:excludeFromRecents="true"
-            android:exported="true"
-            android:launchMode="singleTask"
-            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.ucsm.tylersai.amsteacher.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
             android:enabled="true"
             android:exported="false" >
-        </receiver>
-        <receiver
-            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-            android:enabled="true"
-            android:exported="true"
-            android:permission="android.permission.INSTALL_PACKAGES" >
-            <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER" />
-            </intent-filter>
         </receiver>
 
         <service
@@ -207,25 +242,17 @@
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <receiver
-            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-            android:exported="true"
-            android:permission="com.google.android.c2dm.permission.SEND" >
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-            </intent-filter>
-        </receiver>
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
         <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.ucsm.tylersai.amsteacher.firebaseinitprovider"
-            android:exported="false"
-            android:initOrder="100" />
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.ucsm.tylersai.amsteacher.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
     </application>
 
 </manifest>

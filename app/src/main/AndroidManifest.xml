@@ -24,79 +24,68 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".SubjectOfParticulatStudentDeanDetailActivity"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-        >
-        </activity>
-        <activity android:name=".ViewDetailStudentDeanActivity">
-        </activity>
-        <activity android:name=".MedicalLeaveActionDeanActivity">
-        </activity>
-        <activity android:name=".SeeAllStudentMedicalLeaveActivity">
-        </activity>
-        <activity android:name=".AddClassDeanActivity">
-        </activity>
-        <activity android:name=".AddSubjectDeanActivity">
-        </activity>
-        <activity android:name=".AddTeacherDeanActivity">
-        </activity>
-        <activity android:name=".AddStudentDeanActivity">
-        </activity>
-        <activity android:name=".BroadcastActivity">
-        </activity>
-        <activity android:name=".ExportCSVActivity">
-        </activity>
         <activity
-                android:name=".Main2Activity"
-                android:label="@string/title_activity_main2"
+            android:name=".ui.activity.SubjectOfParticularStudentDeanDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".ui.activity.ViewDetailStudentDeanActivity"></activity>
+        <activity android:name=".ui.activity.MedicalLeaveActionDeanActivity"></activity>
+        <activity android:name=".ui.activity.SeeAllStudentMedicalLeaveActivity"></activity>
+        <activity android:name=".ui.activity.AddClassDeanActivity"></activity>
+        <activity android:name=".ui.activity.AddSubjectDeanActivity"></activity>
+        <activity android:name=".ui.activity.AddTeacherDeanActivity"></activity>
+        <activity android:name=".ui.activity.AddStudentDeanActivity"></activity>
+        <activity android:name=".ui.activity.BroadcastActivity"></activity>
+        <activity android:name=".ui.activity.ExportCSVActivity"></activity>
+        <activity
+            android:name=".ui.activity.Main2Activity"
+            android:label="@string/title_activity_main2"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".ChangePasswordActivity">
-        </activity>
+        <activity android:name=".ui.activity.ChangePasswordActivity"></activity>
         <activity
-                android:name=".SplashActivity"
-                android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:name=".ui.activity.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".QRGenerateActivity">
-        </activity>
+        <activity android:name=".ui.activity.QRGenerateActivity"></activity>
         <activity
-                android:name=".MainActivity"
-                android:label="@string/title_activity_main"
+            android:name=".ui.activity.MainActivity"
+            android:label="@string/title_activity_main"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name=".ForgetPasswordActivity"
-                android:screenOrientation="portrait"
+            android:name=".ui.activity.ForgetPasswordActivity"
+            android:screenOrientation="portrait"
                 android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
-                android:name=".NewPasswordActivity"
-                android:screenOrientation="portrait"
+            android:name=".ui.activity.NewPasswordActivity"
+            android:screenOrientation="portrait"
                 android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
-                android:name=".LoginActivity"
-                android:screenOrientation="portrait"
+            android:name=".ui.activity.LoginActivity"
+            android:screenOrientation="portrait"
                 android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
         <activity
-                android:name=".PinActivity"
-                android:screenOrientation="portrait"
+            android:name=".ui.activity.PinActivity"
+            android:screenOrientation="portrait"
                 android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
-                android:name=".MyAccountActivity"
-                android:screenOrientation="portrait"
+            android:name=".ui.activity.MyAccountActivity"
+            android:screenOrientation="portrait"
                 android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
-                android:name=".AboutActivity"
-                android:screenOrientation="portrait"/>
+            android:name=".ui.activity.AboutActivity"
+            android:screenOrientation="portrait"/>
         <activity
-                android:name=".UpdateMyInfoActivity"
-                android:screenOrientation="portrait"/>
+            android:name=".ui.activity.UpdateMyInfoActivity"
+            android:screenOrientation="portrait"/>
 
         <meta-data
                 android:name="com.google.android.gms.version"

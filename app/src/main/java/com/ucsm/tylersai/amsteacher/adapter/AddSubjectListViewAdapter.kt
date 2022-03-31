@@ -22,17 +22,17 @@ class AddSubjectListViewAdapter(context: Context, arrayList: ArrayList<Subject>)
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
-        var subject: Subject = arrayList!!.get(position)
+        val subject: Subject = arrayList!![position]
 
-        var inflater = LayoutInflater.from(context)
-        var rowView = inflater.inflate(R.layout.row_add_subject_list_add, null, true)
+        val inflater = LayoutInflater.from(context)
+        val rowView = inflater.inflate(R.layout.row_add_subject_list_add, null, true)
 
 
-        var tvsubjectcode = rowView.findViewById<TextView>(R.id.tv_subject_code_add_subject)
-        var tvsubjectname = rowView.findViewById<TextView>(R.id.tv_subject_name_add_subject)
-        var tvsubjectday = rowView.findViewById<TextView>(R.id.tv_subject_day_add_subject)
-        var tvsubjectroom = rowView.findViewById<TextView>(R.id.tv_room_add_subject)
-        var tvteacherid = rowView.findViewById<TextView>(R.id.tv_subject_teacher_id_add_subject)
+        val tvsubjectcode = rowView.findViewById<TextView>(R.id.tv_subject_code_add_subject)
+        val tvsubjectname = rowView.findViewById<TextView>(R.id.tv_subject_name_add_subject)
+        val tvsubjectday = rowView.findViewById<TextView>(R.id.tv_subject_day_add_subject)
+        val tvsubjectroom = rowView.findViewById<TextView>(R.id.tv_room_add_subject)
+        val tvteacherid = rowView.findViewById<TextView>(R.id.tv_subject_teacher_id_add_subject)
 
 
 
@@ -43,11 +43,12 @@ class AddSubjectListViewAdapter(context: Context, arrayList: ArrayList<Subject>)
 
         tvsubjectday.text = ""
 
-        var subjectDaysAry = subject.day.split(",")
-        var subjectTimeAry = subject.time.split(",")
+        val subjectDaysAry = subject.day.split(",")
+        val subjectTimeAry = subject.time.split(",")
 
-        for (i in 0 until subjectDaysAry.size) {
-            tvsubjectday.text = "${tvsubjectday.text}${subjectDaysAry[i]}: Time:${subjectTimeAry[i]}\n"
+        for (i in subjectDaysAry.indices) {
+            tvsubjectday.text =
+                "${tvsubjectday.text}${subjectDaysAry[i]}: Time:${subjectTimeAry[i]}\n"
         }
 
 

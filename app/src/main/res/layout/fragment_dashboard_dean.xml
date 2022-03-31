@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-                                       android:clipToPadding="false"
-             tools:context=".DashboardFragment">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    tools:context=".DashboardFragmentDean">
 
 
-    <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <RelativeLayout android:layout_width="match_parent"
-                        android:layout_height="220dp"
-                        android:background="@drawable/dashboard_background"
-                        android:id="@+id/dashboard_top_design"
+        <RelativeLayout
+            android:id="@+id/dashboard_top_design"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/dashboard_background"
                         android:layout_alignParentTop="true"
         >
             <TextView android:layout_width="match_parent"

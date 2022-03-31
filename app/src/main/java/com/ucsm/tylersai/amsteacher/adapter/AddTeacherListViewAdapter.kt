@@ -24,19 +24,19 @@ class AddTeacherListViewAdapter(context: Context, arrayList: ArrayList<Teacher>)
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
-        var teacher: Teacher = arrayList!!.get(position)
+        val teacher: Teacher = arrayList!![position]
 
-        var inflater = LayoutInflater.from(context)
-        var rowView = inflater.inflate(R.layout.row_teacher_list_view_add_teacher_dean, null, true)
+        val inflater = LayoutInflater.from(context)
+        val rowView = inflater.inflate(R.layout.row_teacher_list_view_add_teacher_dean, null, true)
 
 
-        var tvid = rowView.findViewById<TextView>(R.id.tv_teacher_id_add_teacher_dean)
-        var tvname = rowView.findViewById<TextView>(R.id.tv_teacher_name_add_teacher_dean)
-        var tvphone = rowView.findViewById<TextView>(R.id.tv_teacher_phone_add_teacher_dean)
-        var tvemail = rowView.findViewById<TextView>(R.id.tv_teacher_email_add_teacher_dean)
-        var tvaddress = rowView.findViewById<TextView>(R.id.tv_teacher_address_add_teacher_dean)
+        val tvid = rowView.findViewById<TextView>(R.id.tv_teacher_id_add_teacher_dean)
+        val tvname = rowView.findViewById<TextView>(R.id.tv_teacher_name_add_teacher_dean)
+        val tvphone = rowView.findViewById<TextView>(R.id.tv_teacher_phone_add_teacher_dean)
+        val tvemail = rowView.findViewById<TextView>(R.id.tv_teacher_email_add_teacher_dean)
+        val tvaddress = rowView.findViewById<TextView>(R.id.tv_teacher_address_add_teacher_dean)
 
-        var imgProfile = rowView.findViewById<ImageView>(R.id.img_profile_add_teacher_dean)
+        val imgProfile = rowView.findViewById<ImageView>(R.id.img_profile_add_teacher_dean)
 
         tvid.text = teacher.id
         tvname.text = teacher.name

@@ -22,15 +22,16 @@ class PreAddStudentListViewAdapter(context: Context, arrayList: ArrayList<PreStu
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
-        var student: PreStudentList = arrayList!!.get(position)
+        val student: PreStudentList = arrayList!![position]
 
-        var inflater = LayoutInflater.from(context)
-        var rowView = inflater.inflate(R.layout.row_pre_add_student_list_view_add_student, null, true)
+        val inflater = LayoutInflater.from(context)
+        val rowView =
+            inflater.inflate(R.layout.row_pre_add_student_list_view_add_student, null, true)
 
 
-        var nameTv = rowView.findViewById<TextView>(R.id.tv_name_add_student)
-        var mkptTv = rowView.findViewById<TextView>(R.id.tv_mkpt_add_student)
-        var majorTv = rowView.findViewById<TextView>(R.id.tv_major_add_student)
+        val nameTv = rowView.findViewById<TextView>(R.id.tv_name_add_student)
+        val mkptTv = rowView.findViewById<TextView>(R.id.tv_mkpt_add_student)
+        val majorTv = rowView.findViewById<TextView>(R.id.tv_major_add_student)
 
         nameTv.text = student.name
         mkptTv.text = student.mkpt

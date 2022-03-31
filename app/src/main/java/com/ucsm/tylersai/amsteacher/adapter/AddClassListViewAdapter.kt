@@ -22,15 +22,16 @@ class AddClassListViewAdapter(context: Context, arrayList: ArrayList<SectionClas
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
-        var sectionClass: SectionClass = arrayList!!.get(position)
+        val sectionClass: SectionClass = arrayList!!.get(position)
 
-        var inflater = LayoutInflater.from(context)
-        var rowView = inflater.inflate(R.layout.row_add_class_class_list_view_dean, null, true)
+        val inflater = LayoutInflater.from(context)
+        val rowView = inflater.inflate(R.layout.row_add_class_class_list_view_dean, null, true)
 
 
-        var tvClassName = rowView.findViewById<TextView>(R.id.tv_section_name_add_class_dean)
-        var tvTeachingSubject = rowView.findViewById<TextView>(R.id.tv_teaching_subject_add_class_dean)
-        var tvYear = rowView.findViewById<TextView>(R.id.tv_year_add_class_dean)
+        val tvClassName = rowView.findViewById<TextView>(R.id.tv_section_name_add_class_dean)
+        val tvTeachingSubject =
+            rowView.findViewById<TextView>(R.id.tv_teaching_subject_add_class_dean)
+        val tvYear = rowView.findViewById<TextView>(R.id.tv_year_add_class_dean)
 
 
 

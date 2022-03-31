@@ -8,8 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.ucsm.tylersai.amsteacher.ViewDetailStudentDeanActivity
 import com.ucsm.tylersai.amsteacher.model.Student
+import com.ucsm.tylersai.amsteacher.ui.activity.ViewDetailStudentDeanActivity
 import kotlinx.android.synthetic.main.row_view_student_attendance.view.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -31,7 +31,7 @@ class ViewStudentRecyclerViewAdapter(val items: ArrayList<Student>, val context:
     // Inflates the item views
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): mViewHolder {
 
-        var view = mViewHolder(
+        val view = mViewHolder(
             LayoutInflater.from(context).inflate(
                 com.ucsm.tylersai.amsteacher.R.layout.row_view_student_attendance,
                 parent,
@@ -39,13 +39,13 @@ class ViewStudentRecyclerViewAdapter(val items: ArrayList<Student>, val context:
             )
         )
 
-        var dateFormat = SimpleDateFormat(DATE_FORMAT)
-        var c = Calendar.getInstance().time
-        var today = dateFormat.format(c)
+        val dateFormat = SimpleDateFormat(DATE_FORMAT)
+        val c = Calendar.getInstance().time
+        val today = dateFormat.format(c)
 
-        var formatofDate = SimpleDateFormat(DATE_FORMAT)
-        var dateForWeekDay = formatofDate.parse(today)
-        var calendarObj = Calendar.getInstance()
+        val formatofDate = SimpleDateFormat(DATE_FORMAT)
+        val dateForWeekDay = formatofDate.parse(today)
+        val calendarObj = Calendar.getInstance()
 
         //get current time
         hour = calendarObj.get(Calendar.HOUR_OF_DAY)
@@ -77,29 +77,29 @@ class ViewStudentRecyclerViewAdapter(val items: ArrayList<Student>, val context:
         }
 
         val cc = Calendar.getInstance()
-        var year = cc.get(Calendar.YEAR)
-        var month = cc.get(Calendar.MONTH) + 1
-        var day = cc.get(Calendar.DAY_OF_MONTH)
+        val year = cc.get(Calendar.YEAR)
+        val month = cc.get(Calendar.MONTH) + 1
+        val day = cc.get(Calendar.DAY_OF_MONTH)
 
         var realDay: String? = ""
         var realMonth: String? = ""
 
-        if (day < 10) {
-            realDay = "0${day}"
+        realDay = if (day < 10) {
+            "0${day}"
         } else {
-            realDay = day.toString()
+            day.toString()
         }
-        if (month < 10) {
-            realMonth = "0${month}"
+        realMonth = if (month < 10) {
+            "0${month}"
         } else {
-            realMonth = month.toString()
+            month.toString()
         }
 
         todayForAttendanceKey = "$realDay$realMonth$year"
 
         view.itemView.setOnClickListener {
 
-            var intent = Intent(context, ViewDetailStudentDeanActivity::class.java)
+            val intent = Intent(context, ViewDetailStudentDeanActivity::class.java)
             intent.putExtra("mkpt", view.tvmkpt.text)
             intent.putExtra("subject", view.tvSubject)
             startActivity(context, intent, null)

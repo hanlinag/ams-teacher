@@ -11,9 +11,9 @@ import android.widget.ListAdapter
 import android.widget.TextView
 import androidx.core.content.ContextCompat.startActivity
 import com.bumptech.glide.Glide
-import com.ucsm.tylersai.amsteacher.MedicalLeaveActionDeanActivity
 import com.ucsm.tylersai.amsteacher.R
 import com.ucsm.tylersai.amsteacher.model.MedicalLeave
+import com.ucsm.tylersai.amsteacher.ui.activity.MedicalLeaveActionDeanActivity
 
 class AddMedicalLeaveListViewAdapter (context: Context, arrayList: ArrayList<MedicalLeave>) : ListAdapter {
     var context: Context? = context
@@ -27,18 +27,19 @@ class AddMedicalLeaveListViewAdapter (context: Context, arrayList: ArrayList<Med
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
-        var medicalLeave : MedicalLeave = arrayList!!.get(position)
+        val medicalLeave: MedicalLeave = arrayList!!.get(position)
 
-        var inflater = LayoutInflater.from(context)
-        var rowView = inflater.inflate(R.layout.row_asking_student_lists_medical_leave_dean,null,true)
+        val inflater = LayoutInflater.from(context)
+        val rowView =
+            inflater.inflate(R.layout.row_asking_student_lists_medical_leave_dean, null, true)
 
 
+        val tvmkpt = rowView.findViewById<TextView>(R.id.tv_mkpt_medical_leave_dean)
+        val tvaskingDate = rowView.findViewById<TextView>(R.id.tv_asking_date_medical_leave_dean)
+        val tvprogress = rowView.findViewById<TextView>(R.id.tv_progress_medical_leave_dean)
 
-        var tvmkpt = rowView.findViewById<TextView>(R.id.tv_mkpt_medical_leave_dean)
-        var tvaskingDate = rowView.findViewById<TextView>(R.id.tv_asking_date_medical_leave_dean)
-        var tvprogress = rowView.findViewById<TextView>(R.id.tv_progress_medical_leave_dean)
-
-        var imgMedicalLeaveLetter = rowView.findViewById<ImageView>(R.id.img_medical_leave_letter_dean)
+        val imgMedicalLeaveLetter =
+            rowView.findViewById<ImageView>(R.id.img_medical_leave_letter_dean)
 
 
 
@@ -50,7 +51,7 @@ class AddMedicalLeaveListViewAdapter (context: Context, arrayList: ArrayList<Med
 
 
         rowView.setOnClickListener {
-            var intent = Intent(rowView.context, MedicalLeaveActionDeanActivity::class.java)
+            val intent = Intent(rowView.context, MedicalLeaveActionDeanActivity::class.java)
             intent.putExtra("mkpt", medicalLeave.mkpt)
             intent.putExtra("askingdate", medicalLeave.askingDate)
             intent.putExtra("progress", medicalLeave.progress)
