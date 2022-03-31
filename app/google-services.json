@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "726860549411",
+    "firebase_url": "https://attendance-system-245615.firebaseio.com",
+    "project_id": "attendance-system-245615",
+    "storage_bucket": "attendance-system-245615.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726860549411:android:d9feb671f28289c72fd096",
+        "android_client_info": {
+          "package_name": "com.ucsm.tylersai.amsteacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726860549411-uv3js06eif3glh415sav54fnk47i8vld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXE3kLUijFxP7QwwfdBnvCefJ-psMNM_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726860549411-uv3js06eif3glh415sav54fnk47i8vld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
