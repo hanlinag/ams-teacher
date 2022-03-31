@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">ADD YOUR OWN WEB CLIENT ID HERE</string>
-    <string name="firebase_database_url" translatable="false">ADD FIREBASE DATABASE URL HERE</string>
+    <string name="default_web_client_id" translatable="false">726860549411-uv3js06eif3glh415sav54fnk47i8vld.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://attendance-system-245615.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">726860549411</string>
-    <string name="google_api_key" translatable="false">ADD YOUR API KEY HERE</string>
-    <string name="google_app_id" translatable="false">1:726860549411:android:49bd2966cfa6b636</string>
+    <string name="google_api_key" translatable="false">AIzaSyAXE3kLUijFxP7QwwfdBnvCefJ-psMNM_A</string>
+    <string name="google_app_id" translatable="false">1:726860549411:android:d9feb671f28289c72fd096</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAXE3kLUijFxP7QwwfdBnvCefJ-psMNM_A</string>
     <string name="google_storage_bucket" translatable="false">attendance-system-245615.appspot.com</string>
     <string name="project_id" translatable="false">attendance-system-245615</string>

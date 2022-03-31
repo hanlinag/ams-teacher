@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.SplashActivity">
+
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".SplashActivity">
-
-    <ImageView android:layout_width="match_parent"
-               android:layout_height="match_parent"
-               android:src="@drawable/splash_bg"
-    />
+        android:src="@drawable/splash_bg" />
 
 
-    <ImageView android:layout_width="100dp"
-               android:layout_height="100dp"
-               android:src="@drawable/logotran"
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logotran"
                android:layout_above="@+id/tv_title_splash"
                android:layout_centerHorizontal="true"
                android:id="@+id/splash_img"

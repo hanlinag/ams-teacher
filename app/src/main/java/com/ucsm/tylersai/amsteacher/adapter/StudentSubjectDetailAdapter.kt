@@ -16,13 +16,14 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.ucsm.tylersai.amsteacher.R
-import com.ucsm.tylersai.amsteacher.SubjectOfParticulatStudentDeanDetailActivity
 import com.ucsm.tylersai.amsteacher.model.Subject
+import com.ucsm.tylersai.amsteacher.ui.activity.SubjectOfParticularStudentDeanDetailActivity
 
-class StudentSubjectDetailAdapter(context: Context, arrayList: ArrayList<String>, mkpt: String) : ListAdapter {
+class StudentSubjectDetailAdapter(context: Context, arrayList: ArrayList<String>, m: String) :
+    ListAdapter {
     var context: Context? = context
     var arrayList: ArrayList<String>? = arrayList
-    var mkpt: String = mkpt
+    var mkpt: String = m
 
 
     override fun isEmpty(): Boolean {
@@ -32,13 +33,14 @@ class StudentSubjectDetailAdapter(context: Context, arrayList: ArrayList<String>
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
-        var subject: String = arrayList!!.get(position)
+        val subject: String = arrayList!!.get(position)
 
-        var inflater = LayoutInflater.from(context)
-        var rowView = inflater.inflate(R.layout.row_student_subject_detail_dean_subject_list_view, null, true)
+        val inflater = LayoutInflater.from(context)
+        val rowView =
+            inflater.inflate(R.layout.row_student_subject_detail_dean_subject_list_view, null, true)
 
 
-        var subjectCode = rowView.findViewById<TextView>(R.id.subject_code_in_list_view_dean_detail)
+        val subjectCode = rowView.findViewById<TextView>(R.id.subject_code_in_list_view_dean_detail)
 
 
         subjectCode.text = subject
@@ -46,31 +48,37 @@ class StudentSubjectDetailAdapter(context: Context, arrayList: ArrayList<String>
 
 
         rowView.setOnClickListener {
-            var pDialog = ProgressDialog(context)
+            val pDialog = ProgressDialog(context)
             pDialog.setMessage("Loading...")
             pDialog.show()
 
             //student and subject
-            var subAry = subject.split(":")
-            var subjectTable = FirebaseDatabase.getInstance().reference.child("ams").child("subject")
-            subjectTable.child(subAry[0].trim()).addListenerForSingleValueEvent(object : ValueEventListener {
-                override fun onCancelled(p0: DatabaseError) {
-                    Toast.makeText(context, "Error occurred ${p0.message}", Toast.LENGTH_LONG).show()
-                }
+            val subAry = subject.split(":")
+            val subjectTable =
+                FirebaseDatabase.getInstance().reference.child("ams").child("subject")
+            subjectTable.child(subAry[0].trim())
+                .addListenerForSingleValueEvent(object : ValueEventListener {
+                    override fun onCancelled(p0: DatabaseError) {
+                        Toast.makeText(context, "Error occurred ${p0.message}", Toast.LENGTH_LONG)
+                            .show()
+                    }
 
-                override fun onDataChange(dataSnapshot: DataSnapshot) {
+                    override fun onDataChange(dataSnapshot: DataSnapshot) {
 
-                    var subject = dataSnapshot.getValue(Subject::class.java)
+                        val sub = dataSnapshot.getValue(Subject::class.java)
 
-                    var intent = Intent(context, SubjectOfParticulatStudentDeanDetailActivity::class.java)
-                    intent.putExtra("subcode", subject!!.subjectCode)
-                    intent.putExtra("subname", subject.name)
-                    intent.putExtra("mkpt", mkpt)
-                    intent.putExtra("subdays", subject.day)
-                    intent.putExtra("subtimes", subject.time)
-                    startActivity(context!!, intent, null)
-                    pDialog.dismiss()
-                }
+                        val intent = Intent(
+                            context,
+                            SubjectOfParticularStudentDeanDetailActivity::class.java
+                        )
+                        intent.putExtra("subcode", sub!!.subjectCode)
+                        intent.putExtra("subname", sub.name)
+                        intent.putExtra("mkpt", mkpt)
+                        intent.putExtra("subdays", sub.day)
+                        intent.putExtra("subtimes", sub.time)
+                        startActivity(context!!, intent, null)
+                        pDialog.dismiss()
+                    }
             })
         }
 

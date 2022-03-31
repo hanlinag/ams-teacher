@@ -10,8 +10,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.ucsm.tylersai.amsteacher.QRGenerateActivity
 import com.ucsm.tylersai.amsteacher.model.Subject
+import com.ucsm.tylersai.amsteacher.ui.activity.QRGenerateActivity
 import kotlinx.android.synthetic.main.teaching_subjects_recycler_row.view.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -32,7 +32,7 @@ class TeachingSubjectAdapter(val items: ArrayList<Subject>, val context: Context
     // Inflates the item views
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 
-        var view = ViewHolder(
+        val view = ViewHolder(
             LayoutInflater.from(context).inflate(
                 com.ucsm.tylersai.amsteacher.R.layout.teaching_subjects_recycler_row,
                 parent,
@@ -40,13 +40,13 @@ class TeachingSubjectAdapter(val items: ArrayList<Subject>, val context: Context
             )
         )
 
-        var dateFormat = SimpleDateFormat(DATE_FORMAT)
-        var c = Calendar.getInstance().time
-        var today = dateFormat.format(c)
+        val dateFormat = SimpleDateFormat(DATE_FORMAT)
+        val c = Calendar.getInstance().time
+        val today = dateFormat.format(c)
 
-        var formatofDate = SimpleDateFormat(DATE_FORMAT)
-        var dateForWeekDay = formatofDate.parse(today)
-        var calendarObj = Calendar.getInstance()
+        val formatofDate = SimpleDateFormat(DATE_FORMAT)
+        val dateForWeekDay = formatofDate.parse(today)
+        val calendarObj = Calendar.getInstance()
 
         //get current time
         hour = calendarObj.get(Calendar.HOUR_OF_DAY)
@@ -78,22 +78,22 @@ class TeachingSubjectAdapter(val items: ArrayList<Subject>, val context: Context
         }
 
         val cc = Calendar.getInstance()
-        var year = cc.get(Calendar.YEAR)
-        var month = cc.get(Calendar.MONTH) + 1
-        var day = cc.get(Calendar.DAY_OF_MONTH)
+        val year = cc.get(Calendar.YEAR)
+        val month = cc.get(Calendar.MONTH) + 1
+        val day = cc.get(Calendar.DAY_OF_MONTH)
 
         var realDay: String? = ""
         var realMonth: String? = ""
 
-        if (day < 10) {
-            realDay = "0${day}"
+        realDay = if (day < 10) {
+            "0${day}"
         } else {
-            realDay = day.toString()
+            day.toString()
         }
-        if (month < 10) {
-            realMonth = "0${month}"
+        realMonth = if (month < 10) {
+            "0${month}"
         } else {
-            realMonth = month.toString()
+            month.toString()
         }
 
         todayForAttendanceKey = "$realDay$realMonth$year"
@@ -104,14 +104,14 @@ class TeachingSubjectAdapter(val items: ArrayList<Subject>, val context: Context
                 .setMessage("Are you sure you want to collect attendance on subject: ${view.tvSubjectCode.text}")
                 .setPositiveButton("Collect", DialogInterface.OnClickListener { dialogInterface, i ->
 
-                    var correspondingDate = view.tvD
-                    var correspondingTime = view.tvT
+                    val correspondingDate = view.tvD
+                    val correspondingTime = view.tvT
                     Log.d("Tyler", "today, tvd up ${view.tvD}")
 
                     if (dateAndTimeCorrect(correspondingDate, correspondingTime)) {
 
                         dialogInterface.dismiss()
-                        var intent = Intent(context, QRGenerateActivity::class.java)
+                        val intent = Intent(context, QRGenerateActivity::class.java)
                         intent.putExtra(
                             "textToEncrypt",
                             "${view.tvSubjectCode.text},${view.tvSubjectName.text},$todaysDay,$hour,$todayForAttendanceKey"
@@ -144,22 +144,25 @@ class TeachingSubjectAdapter(val items: ArrayList<Subject>, val context: Context
     private fun dateAndTimeCorrect(corDate: String, corTime: String): Boolean {
         var eligible = true
 
-        var dayAry = corDate.split(",")
-        var timeAry = corTime.split(",")
+        val dayAry = corDate.split(",")
+        val timeAry = corTime.split(",")
 
         for (i in 0 until dayAry.size) {
-            var d = dayAry[i].trim()
-            Log.d("Tyler", "today is: $todaysDay and schedule is ${d}")
+            val d = dayAry[i].trim()
+            //Log.d("Tyler", "today is: $todaysDay and schedule is ${d}")
             if (d.equals(todaysDay)) {
-                Log.d("Tyler", "today entering checking time")
-                var timeInterval = timeAry[i].split("-")
-                var timeStart = timeInterval[0].trim().toInt()
-                var timeEnd = timeInterval[1].trim().toInt()
+                //Log.d("Tyler", "today entering checking time")
+                val timeInterval = timeAry[i].split("-")
+                val timeStart = timeInterval[0].trim().toInt()
+                val timeEnd = timeInterval[1].trim().toInt()
 
-                Log.d("Tyler", "today date n time is: ${dayAry[i]}, ${timeAry[i]} current hour is : $hour")
-                Log.d("Tyler", "today start and end time is: $timeStart, $timeEnd")
+                //Log.d("Tyler", "today date n time is: ${dayAry[i]}, ${timeAry[i]} current hour is : $hour")
+                //Log.d("Tyler", "today start and end time is: $timeStart, $timeEnd")
                 //check if time is correct
-                eligible = compareValues(hour, timeStart) >= 0 && compareValues(hour, timeEnd) < 0//end of else time check
+                eligible = compareValues(hour, timeStart) >= 0 && compareValues(
+                    hour,
+                    timeEnd
+                ) < 0//end of else time check
 
                 break
 
@@ -176,14 +179,15 @@ class TeachingSubjectAdapter(val items: ArrayList<Subject>, val context: Context
         holder.tvSubjectName?.text = items[position].name
 
         //day and time
-        var day = items[position].day
-        var time = items[position].time
+        val day = items[position].day
+        val time = items[position].time
 
-        var dayAry = day.split(",")
-        var timeAry = time.split(",")
+        val dayAry = day.split(",")
+        val timeAry = time.split(",")
         holder.tvsubjectDay?.text = ""
-        for (i in 0 until dayAry.size) {
-            holder.tvsubjectDay?.text = "${holder.tvsubjectDay?.text}${dayAry[i]} : Time:${timeAry[i]}(hr)\n"
+        for (i in dayAry.indices) {
+            holder.tvsubjectDay?.text =
+                "${holder.tvsubjectDay?.text}${dayAry[i]} : Time:${timeAry[i]}(hr)\n"
         }
 
         holder.tvD = items[position].day

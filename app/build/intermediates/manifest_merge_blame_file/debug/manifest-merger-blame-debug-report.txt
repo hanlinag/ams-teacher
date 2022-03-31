@@ -5,433 +5,494 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="19"
-8-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="28" />
-9-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml
+8        android:minSdkVersion="26"
+8-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:5:5-66
-11-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:5:22-64
+11-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:6:5-78
-12-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:6:22-76
+12-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:6:5-78
+12-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:7:5-78
-13-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:7:22-76
+13-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:7:5-78
+13-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:8:5-80
-14-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:8:22-78
+14-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:8:5-80
+14-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:8:22-78
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:6:5-78
-15-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:6:22-76
+15-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:6:5-78
+15-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:6:22-76
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:10:5-79
-16-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:10:22-77
+16-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:10:5-79
+16-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:10:22-77
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-17-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:8:5-80
-17-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:8:22-78
+17-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:8:5-80
+17-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:8:22-78
 18    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-18-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:12:5-97
-18-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:12:22-95
+18-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:12:5-97
+18-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:12:22-95
 19
 20    <permission
-20-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:14:5-16:50
+20-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:14:5-16:50
 21        android:name="com.example.permission.MAPS_RECEIVE"
-21-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:15:13-63
+21-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:15:13-63
 22        android:protectionLevel="signature" />
-22-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:16:13-48
+22-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:16:13-48
 23
 24    <uses-permission android:name="com.example.permission.MAPS_RECEIVE" />
-24-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:18:5-74
-24-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:18:22-72
+24-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:18:5-74
+24-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:18:22-72
 25    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-25-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
-25-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
+25-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
+25-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
 26    <uses-feature
-26-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+26-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
 27        android:name="android.hardware.camera"
-27-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+27-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
 28        android:required="false" />
-28-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+28-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
 29    <uses-feature
-29-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+29-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
 30        android:name="android.hardware.camera.front"
-30-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+30-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
 31        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-31-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+31-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
 32    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
 33    <uses-feature
-33-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+33-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
 34        android:name="android.hardware.camera.autofocus"
-34-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+34-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
 35        android:required="false" />
-35-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+35-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
 36    <uses-feature
-36-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+36-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
 37        android:name="android.hardware.camera.flash"
-37-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+37-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
 38        android:required="false" />
-38-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+38-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
 39    <uses-feature
-39-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+39-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
 40        android:name="android.hardware.screen.landscape"
-40-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+40-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
 41        android:required="false" />
-41-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+41-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
 42    <uses-feature
-42-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+42-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
 43        android:name="android.hardware.wifi"
-43-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+43-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
 44        android:required="false" />
-44-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+44-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
 45    <uses-feature
-45-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+45-->[com.google.android.gms:play-services-maps:18.0.2] /Users/aceplus/.gradle/caches/transforms-3/5dea92afb34c2b0b66417f0f539330c9/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
 46        android:glEsVersion="0x00020000"
-46-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+46-->[com.google.android.gms:play-services-maps:18.0.2] /Users/aceplus/.gradle/caches/transforms-3/5dea92afb34c2b0b66417f0f539330c9/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
 47        android:required="true" />
-47-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/9764bc7de9d23473ec8fc0ad17bdd0b8/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+47-->[com.google.android.gms:play-services-maps:18.0.2] /Users/aceplus/.gradle/caches/transforms-3/5dea92afb34c2b0b66417f0f539330c9/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
 48
-49    <uses-permission android:name="android.permission.WAKE_LOCK" />
-49-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
-49-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:25:22-65
-50    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-50-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
-50-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
-51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-51-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
-51-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
-52
-53    <application
-53-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:20:5-112:19
-54        android:allowBackup="true"
-54-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:21:13-39
-55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-55-->[androidx.core:core:1.1.0-rc01] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0310fcbcb2434878f9ac1958d5ba59d3/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
-56        android:debuggable="true"
-57        android:icon="@mipmap/ic_launcher"
-57-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:22:13-47
-58        android:label="@string/app_name"
-58-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:23:13-45
-59        android:roundIcon="@mipmap/ic_launcher_round"
-59-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:24:13-58
-60        android:supportsRtl="true"
-60-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:25:13-39
-61        android:testOnly="true"
-62        android:theme="@style/AppTheme" >
-62-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:26:13-44
-63        <activity
-63-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:27:9-30:20
-64            android:name="com.ucsm.tylersai.amsteacher.SubjectOfParticulatStudentDeanDetailActivity"
-64-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:27:19-79
-65            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-65-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:28:19-75
-66        </activity>
-67        <activity android:name="com.ucsm.tylersai.amsteacher.ViewDetailStudentDeanActivity" >
-67-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:31:9-32:20
-67-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:31:19-64
-68        </activity>
-69        <activity android:name="com.ucsm.tylersai.amsteacher.MedicalLeaveActionDeanActivity" >
-69-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:33:9-34:20
-69-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:33:19-65
-70        </activity>
-71        <activity android:name="com.ucsm.tylersai.amsteacher.SeeAllStudentMedicalLeaveActivity" >
-71-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:35:9-36:20
-71-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:35:19-68
-72        </activity>
-73        <activity android:name="com.ucsm.tylersai.amsteacher.AddClassDeanActivity" >
-73-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:37:9-38:20
-73-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:37:19-55
-74        </activity>
-75        <activity android:name="com.ucsm.tylersai.amsteacher.AddSubjectDeanActivity" >
-75-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:39:9-40:20
-75-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:39:19-57
-76        </activity>
-77        <activity android:name="com.ucsm.tylersai.amsteacher.AddTeacherDeanActivity" >
-77-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:41:9-42:20
-77-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:41:19-57
-78        </activity>
-79        <activity android:name="com.ucsm.tylersai.amsteacher.AddStudentDeanActivity" >
-79-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:43:9-44:20
-79-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:43:19-57
-80        </activity>
-81        <activity android:name="com.ucsm.tylersai.amsteacher.BroadcastActivity" >
-81-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:45:9-46:20
-81-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:45:19-52
-82        </activity>
-83        <activity android:name="com.ucsm.tylersai.amsteacher.ExportCSVActivity" >
-83-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:47:9-48:20
-83-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:47:19-52
-84        </activity>
-85        <activity
-85-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:49:9-53:20
-86            android:name="com.ucsm.tylersai.amsteacher.Main2Activity"
-86-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:50:17-46
-87            android:label="@string/title_activity_main2"
-87-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:51:17-61
-88            android:theme="@style/AppTheme.NoActionBar" >
-88-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:52:17-60
-89        </activity>
-90        <activity android:name="com.ucsm.tylersai.amsteacher.ChangePasswordActivity" >
-90-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:54:9-55:20
-90-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:54:19-57
-91        </activity>
-92        <activity
-92-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:56:9-64:20
-93            android:name="com.ucsm.tylersai.amsteacher.SplashActivity"
-93-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:57:17-47
-94            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-94-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:58:17-73
-95            <intent-filter>
-95-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:59:13-63:29
-96                <action android:name="android.intent.action.MAIN" />
-96-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:60:17-68
-96-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:60:25-66
-97
-98                <category android:name="android.intent.category.LAUNCHER" />
-98-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:62:17-76
-98-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:62:27-74
-99            </intent-filter>
-100        </activity>
-101        <activity android:name="com.ucsm.tylersai.amsteacher.QRGenerateActivity" >
-101-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:65:9-66:20
-101-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:65:19-53
-102        </activity>
-103        <activity
-103-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:67:9-72:20
-104            android:name="com.ucsm.tylersai.amsteacher.MainActivity"
-104-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:68:17-45
-105            android:label="@string/title_activity_main"
-105-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:69:17-60
-106            android:screenOrientation="portrait"
-106-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:70:17-53
-107            android:theme="@style/AppTheme.NoActionBar" >
-107-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:71:17-60
-108        </activity>
+49    <queries>
+49-->[com.google.android.gms:play-services-maps:18.0.2] /Users/aceplus/.gradle/caches/transforms-3/5dea92afb34c2b0b66417f0f539330c9/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+50
+51        <!-- Needs to be explicitly declared on Android R+ -->
+52        <package android:name="com.google.android.apps.maps" />
+52-->[com.google.android.gms:play-services-maps:18.0.2] /Users/aceplus/.gradle/caches/transforms-3/5dea92afb34c2b0b66417f0f539330c9/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+52-->[com.google.android.gms:play-services-maps:18.0.2] /Users/aceplus/.gradle/caches/transforms-3/5dea92afb34c2b0b66417f0f539330c9/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+53    </queries>
+54
+55    <uses-permission android:name="android.permission.WAKE_LOCK" />
+55-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/e1a5e5c6d82f508671e4c8943c6a7645/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:24:5-68
+55-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/e1a5e5c6d82f508671e4c8943c6a7645/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:24:22-65
+56    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+56-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/e1a5e5c6d82f508671e4c8943c6a7645/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:5-79
+56-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/e1a5e5c6d82f508671e4c8943c6a7645/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:22-76
+57    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+57-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:5-110
+57-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:22-107
+58
+59    <application
+59-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:20:5-101:19
+60        android:allowBackup="true"
+60-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:21:13-39
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.7.0] /Users/aceplus/.gradle/caches/transforms-3/16248778ea0a4123a4f6f7dc5b88cbc2/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+62        android:debuggable="true"
+63        android:extractNativeLibs="false"
+64        android:icon="@mipmap/ic_launcher"
+64-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:22:13-47
+65        android:label="@string/app_name"
+65-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:23:13-45
+66        android:roundIcon="@mipmap/ic_launcher_round"
+66-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:24:13-58
+67        android:supportsRtl="true"
+67-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:25:13-39
+68        android:testOnly="true"
+69        android:theme="@style/AppTheme" >
+69-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:26:13-44
+70        <activity
+70-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:27:9-29:81
+71            android:name="com.ucsm.tylersai.amsteacher.ui.activity.SubjectOfParticularStudentDeanDetailActivity"
+71-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:28:13-85
+72            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+72-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:29:13-69
+73        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.ViewDetailStudentDeanActivity" />
+73-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:30:9-88
+73-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:30:19-76
+74        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.MedicalLeaveActionDeanActivity" />
+74-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:31:9-89
+74-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:31:19-77
+75        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.SeeAllStudentMedicalLeaveActivity" />
+75-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:32:9-92
+75-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:32:19-80
+76        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.AddClassDeanActivity" />
+76-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:33:9-79
+76-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:33:19-67
+77        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.AddSubjectDeanActivity" />
+77-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:34:9-81
+77-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:34:19-69
+78        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.AddTeacherDeanActivity" />
+78-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:35:9-81
+78-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:35:19-69
+79        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.AddStudentDeanActivity" />
+79-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:36:9-81
+79-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:36:19-69
+80        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.BroadcastActivity" />
+80-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:37:9-76
+80-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:37:19-64
+81        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.ExportCSVActivity" />
+81-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:38:9-76
+81-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:38:19-64
+82        <activity
+82-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:39:9-43:20
+83            android:name="com.ucsm.tylersai.amsteacher.ui.activity.Main2Activity"
+83-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:40:13-54
+84            android:label="@string/title_activity_main2"
+84-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:41:13-57
+85            android:theme="@style/AppTheme.NoActionBar" >
+85-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:42:17-60
+86        </activity>
+87        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.ChangePasswordActivity" />
+87-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:44:9-81
+87-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:44:19-69
+88        <activity
+88-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:45:9-54:20
+89            android:name="com.ucsm.tylersai.amsteacher.ui.activity.SplashActivity"
+89-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:46:13-55
+90            android:exported="true"
+90-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:47:13-36
+91            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+91-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:48:13-69
+92            <intent-filter>
+92-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:49:13-53:29
+93                <action android:name="android.intent.action.MAIN" />
+93-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:50:17-69
+93-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:50:25-66
+94
+95                <category android:name="android.intent.category.LAUNCHER" />
+95-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:52:17-77
+95-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:52:27-74
+96            </intent-filter>
+97        </activity>
+98        <activity android:name="com.ucsm.tylersai.amsteacher.ui.activity.QRGenerateActivity" />
+98-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:55:9-77
+98-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:55:19-65
+99        <activity
+99-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:56:9-61:20
+100            android:name="com.ucsm.tylersai.amsteacher.ui.activity.MainActivity"
+100-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:57:13-53
+101            android:label="@string/title_activity_main"
+101-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:58:13-56
+102            android:screenOrientation="portrait"
+102-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:59:17-53
+103            android:theme="@style/AppTheme.NoActionBar" >
+103-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:60:17-60
+104        </activity>
+105        <activity
+105-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:62:9-65:75
+106            android:name="com.ucsm.tylersai.amsteacher.ui.activity.ForgetPasswordActivity"
+106-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:63:13-63
+107            android:screenOrientation="portrait"
+107-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:64:13-49
+108            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+108-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:65:17-73
 109        <activity
-109-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:73:9-76:75
-110            android:name="com.ucsm.tylersai.amsteacher.ForgetPasswordActivity"
-110-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:74:17-55
+109-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:66:9-69:75
+110            android:name="com.ucsm.tylersai.amsteacher.ui.activity.NewPasswordActivity"
+110-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:67:13-60
 111            android:screenOrientation="portrait"
-111-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:75:17-53
+111-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:68:13-49
 112            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-112-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:76:17-73
+112-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:69:17-73
 113        <activity
-113-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:77:9-80:75
-114            android:name="com.ucsm.tylersai.amsteacher.NewPasswordActivity"
-114-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:78:17-52
+113-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:70:9-74:20
+114            android:name="com.ucsm.tylersai.amsteacher.ui.activity.LoginActivity"
+114-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:71:13-54
 115            android:screenOrientation="portrait"
-115-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:79:17-53
-116            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-116-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:80:17-73
-117        <activity
-117-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:81:9-85:20
-118            android:name="com.ucsm.tylersai.amsteacher.LoginActivity"
-118-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:82:17-46
-119            android:screenOrientation="portrait"
-119-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:83:17-53
-120            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-120-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:84:17-73
-121        </activity>
+115-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:72:13-49
+116            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+116-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:73:17-73
+117        </activity>
+118        <activity
+118-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:75:9-78:75
+119            android:name="com.ucsm.tylersai.amsteacher.ui.activity.PinActivity"
+119-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:76:13-52
+120            android:screenOrientation="portrait"
+120-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:77:13-49
+121            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+121-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:78:17-73
 122        <activity
-122-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:86:9-89:75
-123            android:name="com.ucsm.tylersai.amsteacher.PinActivity"
-123-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:87:17-44
+122-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:79:9-82:75
+123            android:name="com.ucsm.tylersai.amsteacher.ui.activity.MyAccountActivity"
+123-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:80:13-58
 124            android:screenOrientation="portrait"
-124-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:88:17-53
+124-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:81:13-49
 125            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-125-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:89:17-73
+125-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:82:17-73
 126        <activity
-126-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:90:9-93:75
-127            android:name="com.ucsm.tylersai.amsteacher.MyAccountActivity"
-127-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:91:17-50
-128            android:screenOrientation="portrait"
-128-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:92:17-53
-129            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-129-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:93:17-73
-130        <activity
-130-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:94:9-96:55
-131            android:name="com.ucsm.tylersai.amsteacher.AboutActivity"
-131-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:95:17-46
-132            android:screenOrientation="portrait" />
-132-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:96:17-53
-133        <activity
-133-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:97:9-99:55
-134            android:name="com.ucsm.tylersai.amsteacher.UpdateMyInfoActivity"
-134-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:98:17-53
-135            android:screenOrientation="portrait" />
-135-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:99:17-53
+126-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:83:9-85:51
+127            android:name="com.ucsm.tylersai.amsteacher.ui.activity.AboutActivity"
+127-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:84:13-54
+128            android:screenOrientation="portrait" />
+128-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:85:13-49
+129        <activity
+129-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:86:9-88:51
+130            android:name="com.ucsm.tylersai.amsteacher.ui.activity.UpdateMyInfoActivity"
+130-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:87:13-61
+131            android:screenOrientation="portrait" />
+131-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:88:13-49
+132
+133        <meta-data
+133-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:90:9-92:72
+134            android:name="com.google.android.gms.version"
+134-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:91:17-62
+135            android:value="@integer/google_play_services_version" />
+135-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:92:17-70
 136
-137        <meta-data
-137-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:101:9-103:72
-138            android:name="com.google.android.gms.version"
-138-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:102:17-62
-139            android:value="@integer/google_play_services_version" />
-139-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:103:17-70
+137        <uses-library
+137-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:94:9-96:43
+138            android:name="org.apache.http.legacy"
+138-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:95:17-54
+139            android:required="false" />
+139-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:96:17-41
 140
-141        <uses-library
-141-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:105:9-107:43
-142            android:name="org.apache.http.legacy"
-142-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:106:17-54
-143            android:required="false" />
-143-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:107:17-41
+141        <meta-data
+141-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:98:9-100:64
+142            android:name="com.google.android.geo.API_KEY"
+142-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:99:17-62
+143            android:value="@string/google_map_my_own_api" />
+143-->/Users/aceplus/Documents/GitHub/ams-teacher/app/src/main/AndroidManifest.xml:100:17-62
 144
-145        <meta-data
-145-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:109:9-111:64
-146            android:name="com.google.android.geo.API_KEY"
-146-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:110:17-62
-147            android:value="@string/google_map_my_own_api" />
-147-->/Users/tylersai/Downloads/AMSTeacher/app/src/main/AndroidManifest.xml:111:17-62
-148
-149        <activity
-149-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
-150            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-150-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
-151            android:clearTaskOnLaunch="true"
-151-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
-152            android:screenOrientation="sensorLandscape"
-152-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
-153            android:stateNotNeeded="true"
-153-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
-154            android:theme="@style/zxing_CaptureTheme"
-154-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
-155            android:windowSoftInputMode="stateAlwaysHidden" />
-155-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/09bc80c3d0fc796c26fbad77917f114a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
-156
-157        <service
-157-->[com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:30:9-34:19
-158            android:name="com.google.firebase.components.ComponentDiscoveryService"
-158-->[com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:30:18-89
-159            android:exported="false" >
-159-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:35:13-37
-160            <meta-data
-160-->[com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:31:13-33:85
-161                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-161-->[com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:32:17-107
-162                android:value="com.google.firebase.components.ComponentRegistrar" />
-162-->[com.google.firebase:firebase-storage:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/06a01f29f048b2e488c66dd3b3f8df93/firebase-storage-18.0.0/AndroidManifest.xml:33:17-82
-163            <meta-data
-163-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:36:13-38:85
-164                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-164-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:37:17-109
-165                android:value="com.google.firebase.components.ComponentRegistrar" />
-165-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:38:17-82
-166            <meta-data
-166-->[com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:30:13-32:85
-167                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-167-->[com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:31:17-109
-168                android:value="com.google.firebase.components.ComponentRegistrar" />
-168-->[com.google.firebase:firebase-database:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/ced649f9d36d7b753072059c5e499788/firebase-database-18.0.0/AndroidManifest.xml:32:17-82
-169            <meta-data
-169-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:30:13-32:85
-170                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-170-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:31:17-139
-171                android:value="com.google.firebase.components.ComponentRegistrar" />
-171-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/7415c522bdae86d605efd034605bf255/play-services-measurement-api-17.0.0/AndroidManifest.xml:32:17-82
-172            <meta-data
-172-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
-173                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-173-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
-174                android:value="com.google.firebase.components.ComponentRegistrar" />
-174-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
-175        </service>
-176
-177        <activity
-177-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:24:9-31:50
-178            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-178-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:25:13-85
-179            android:excludeFromRecents="true"
-179-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:26:13-46
-180            android:exported="true"
-180-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:27:13-36
-181            android:launchMode="singleTask"
-181-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:28:13-44
-182            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-182-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:29:13-102
-183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-183-->[com.google.firebase:firebase-auth:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/506103b76db42629ce7c018d1d048307/firebase-auth-18.0.0/AndroidManifest.xml:30:13-72
-184
-185        <receiver
-185-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
-186            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-186-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
-187            android:enabled="true"
-187-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
-188            android:exported="false" >
-188-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
-189        </receiver>
-190        <receiver
-190-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
-191            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-191-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
-192            android:enabled="true"
-192-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
-193            android:exported="true"
-193-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
-194            android:permission="android.permission.INSTALL_PACKAGES" >
-194-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
-195            <intent-filter>
-195-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
-196                <action android:name="com.android.vending.INSTALL_REFERRER" />
-196-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
-196-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
-197            </intent-filter>
-198        </receiver>
-199
-200        <service
-200-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
-201            android:name="com.google.android.gms.measurement.AppMeasurementService"
-201-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
-202            android:enabled="true"
-202-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
-203            android:exported="false" />
-203-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
-204        <service
-204-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
-205            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-205-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
-206            android:enabled="true"
-206-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
-207            android:exported="false"
-207-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
-208            android:permission="android.permission.BIND_JOB_SERVICE" />
-208-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/0f830c0f02ac5eab8a6d16221ddae41e/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+145        <activity
+145-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+146            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+146-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+147            android:clearTaskOnLaunch="true"
+147-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+148            android:screenOrientation="sensorLandscape"
+148-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+149            android:stateNotNeeded="true"
+149-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+150            android:theme="@style/zxing_CaptureTheme"
+150-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+151            android:windowSoftInputMode="stateAlwaysHidden" />
+151-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/aceplus/.gradle/caches/transforms-3/bb160a58ae8db55f26ab33e78bb5bb95/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+152        <activity
+152-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+153            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+153-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+154            android:excludeFromRecents="true"
+154-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+155            android:exported="true"
+155-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+156            android:launchMode="singleTask"
+156-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+157-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+158            <intent-filter>
+158-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+159                <action android:name="android.intent.action.VIEW" />
+159-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+159-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+161-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+162-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+163
+164                <data
+164-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+165                    android:host="firebase.auth"
+165-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+166                    android:path="/"
+166-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+167                    android:scheme="genericidp" />
+167-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+168            </intent-filter>
+169        </activity>
+170        <activity
+170-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+171            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+171-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+172            android:excludeFromRecents="true"
+172-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+173            android:exported="true"
+173-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+174            android:launchMode="singleTask"
+174-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+175            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+175-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+176            <intent-filter>
+176-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+177                <action android:name="android.intent.action.VIEW" />
+177-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+177-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+178
+179                <category android:name="android.intent.category.DEFAULT" />
+179-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+179-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+180                <category android:name="android.intent.category.BROWSABLE" />
+180-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+180-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+181
+182                <data
+182-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+183                    android:host="firebase.auth"
+183-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+184                    android:path="/"
+184-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+185                    android:scheme="recaptcha" />
+185-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+186            </intent-filter>
+187        </activity>
+188
+189        <service
+189-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
+190            android:name="com.google.firebase.components.ComponentDiscoveryService"
+190-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:65:13-84
+191            android:directBootAware="true"
+191-->[com.google.firebase:firebase-common:20.1.0] /Users/aceplus/.gradle/caches/transforms-3/08b7b61b4f335c535fe20646abb66d2f/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+192            android:exported="false" >
+192-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+193            <meta-data
+193-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+194                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+194-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-auth:21.0.3] /Users/aceplus/.gradle/caches/transforms-3/d527823b54e0b6125b26598f5ea11aa5/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-storage:20.0.1] /Users/aceplus/.gradle/caches/transforms-3/9da4a76c9941b05d6b4f58772ca2c67b/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+197                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+197-->[com.google.firebase:firebase-storage:20.0.1] /Users/aceplus/.gradle/caches/transforms-3/9da4a76c9941b05d6b4f58772ca2c67b/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-storage:20.0.1] /Users/aceplus/.gradle/caches/transforms-3/9da4a76c9941b05d6b4f58772ca2c67b/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-database:20.0.4] /Users/aceplus/.gradle/caches/transforms-3/bfaf62694ecf44463258b623241d04e1/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:32:13-34:85
+200                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+200-->[com.google.firebase:firebase-database:20.0.4] /Users/aceplus/.gradle/caches/transforms-3/bfaf62694ecf44463258b623241d04e1/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:33:17-109
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-database:20.0.4] /Users/aceplus/.gradle/caches/transforms-3/bfaf62694ecf44463258b623241d04e1/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:34:17-82
+202            <meta-data
+202-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/e1a5e5c6d82f508671e4c8943c6a7645/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:31:13-33:85
+203                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+203-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/e1a5e5c6d82f508671e4c8943c6a7645/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:32:17-139
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/e1a5e5c6d82f508671e4c8943c6a7645/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:33:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-installations:17.0.0] /Users/aceplus/.gradle/caches/transforms-3/93c260f0c265556be39fd4e51edb5e38/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+206                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+206-->[com.google.firebase:firebase-installations:17.0.0] /Users/aceplus/.gradle/caches/transforms-3/93c260f0c265556be39fd4e51edb5e38/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-installations:17.0.0] /Users/aceplus/.gradle/caches/transforms-3/93c260f0c265556be39fd4e51edb5e38/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+208        </service>
 209
-210        <receiver
-210-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
-211            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-211-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
-212            android:exported="true"
-212-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
-213            android:permission="com.google.android.c2dm.permission.SEND" >
-213-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
-214            <intent-filter>
-214-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
-215                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-215-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
-215-->[com.google.firebase:firebase-iid:19.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/b68909d03fc4387bd6bcdeaf773e20d6/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
-216            </intent-filter>
-217        </receiver>
-218
-219        <activity
-219-->[com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-220            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-220-->[com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-221            android:exported="false"
-221-->[com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-222            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-222-->[com.google.android.gms:play-services-base:17.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/97096d9abb0591a8293145b24d66116c/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-223
-224        <provider
-224-->[com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
-225            android:name="com.google.firebase.provider.FirebaseInitProvider"
-225-->[com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
-226            android:authorities="com.ucsm.tylersai.amsteacher.firebaseinitprovider"
-226-->[com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
-227            android:exported="false"
-227-->[com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
-228            android:initOrder="100" />
-228-->[com.google.firebase:firebase-common:18.0.0] /Users/tylersai/.gradle/caches/transforms-2/files-2.1/84e3d2c2eef2d053eb72b5b66b517cbb/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
-229    </application>
-230
-231</manifest>
+210        <uses-library
+210-->[androidx.window:window:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/e31aeffaaecd3a6da4899d6a5a32e109/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+211            android:name="androidx.window.extensions"
+211-->[androidx.window:window:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/e31aeffaaecd3a6da4899d6a5a32e109/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+212            android:required="false" />
+212-->[androidx.window:window:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/e31aeffaaecd3a6da4899d6a5a32e109/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+213        <uses-library
+213-->[androidx.window:window:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/e31aeffaaecd3a6da4899d6a5a32e109/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+214            android:name="androidx.window.sidecar"
+214-->[androidx.window:window:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/e31aeffaaecd3a6da4899d6a5a32e109/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+215            android:required="false" />
+215-->[androidx.window:window:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/e31aeffaaecd3a6da4899d6a5a32e109/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+216
+217        <activity
+217-->[com.google.android.gms:play-services-base:18.0.1] /Users/aceplus/.gradle/caches/transforms-3/ab677b28833f069b57ae64908cc77b6c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+218            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+218-->[com.google.android.gms:play-services-base:18.0.1] /Users/aceplus/.gradle/caches/transforms-3/ab677b28833f069b57ae64908cc77b6c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+219            android:exported="false"
+219-->[com.google.android.gms:play-services-base:18.0.1] /Users/aceplus/.gradle/caches/transforms-3/ab677b28833f069b57ae64908cc77b6c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+220-->[com.google.android.gms:play-services-base:18.0.1] /Users/aceplus/.gradle/caches/transforms-3/ab677b28833f069b57ae64908cc77b6c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+221
+222        <provider
+222-->[com.google.firebase:firebase-common:20.1.0] /Users/aceplus/.gradle/caches/transforms-3/08b7b61b4f335c535fe20646abb66d2f/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+223            android:name="com.google.firebase.provider.FirebaseInitProvider"
+223-->[com.google.firebase:firebase-common:20.1.0] /Users/aceplus/.gradle/caches/transforms-3/08b7b61b4f335c535fe20646abb66d2f/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+224            android:authorities="com.ucsm.tylersai.amsteacher.firebaseinitprovider"
+224-->[com.google.firebase:firebase-common:20.1.0] /Users/aceplus/.gradle/caches/transforms-3/08b7b61b4f335c535fe20646abb66d2f/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+225            android:directBootAware="true"
+225-->[com.google.firebase:firebase-common:20.1.0] /Users/aceplus/.gradle/caches/transforms-3/08b7b61b4f335c535fe20646abb66d2f/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+226            android:exported="false"
+226-->[com.google.firebase:firebase-common:20.1.0] /Users/aceplus/.gradle/caches/transforms-3/08b7b61b4f335c535fe20646abb66d2f/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+227            android:initOrder="100" />
+227-->[com.google.firebase:firebase-common:20.1.0] /Users/aceplus/.gradle/caches/transforms-3/08b7b61b4f335c535fe20646abb66d2f/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+228
+229        <receiver
+229-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:29:9-33:20
+230            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+230-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:30:13-85
+231            android:enabled="true"
+231-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:31:13-35
+232            android:exported="false" >
+232-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:32:13-37
+233        </receiver>
+234
+235        <service
+235-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:35:9-38:40
+236            android:name="com.google.android.gms.measurement.AppMeasurementService"
+236-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:36:13-84
+237            android:enabled="true"
+237-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:37:13-35
+238            android:exported="false" />
+238-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:38:13-37
+239        <service
+239-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:39:9-43:72
+240            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+240-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:40:13-87
+241            android:enabled="true"
+241-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:41:13-35
+242            android:exported="false"
+242-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:42:13-37
+243            android:permission="android.permission.BIND_JOB_SERVICE" />
+243-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/aceplus/.gradle/caches/transforms-3/76bbaeb44f0db5c6f1708a8fd3349789/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:43:13-69
+244
+245        <provider
+245-->[androidx.emoji2:emoji2:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/354d4bd3150eb280c5759a649ee19243/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+246            android:name="androidx.startup.InitializationProvider"
+246-->[androidx.emoji2:emoji2:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/354d4bd3150eb280c5759a649ee19243/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+247            android:authorities="com.ucsm.tylersai.amsteacher.androidx-startup"
+247-->[androidx.emoji2:emoji2:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/354d4bd3150eb280c5759a649ee19243/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+248            android:exported="false" >
+248-->[androidx.emoji2:emoji2:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/354d4bd3150eb280c5759a649ee19243/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+249            <meta-data
+249-->[androidx.emoji2:emoji2:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/354d4bd3150eb280c5759a649ee19243/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+250                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+250-->[androidx.emoji2:emoji2:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/354d4bd3150eb280c5759a649ee19243/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+251                android:value="androidx.startup" />
+251-->[androidx.emoji2:emoji2:1.0.0] /Users/aceplus/.gradle/caches/transforms-3/354d4bd3150eb280c5759a649ee19243/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+252            <meta-data
+252-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/aceplus/.gradle/caches/transforms-3/0facbce45045f8adbeeb88813a1c2b43/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+253                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+253-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/aceplus/.gradle/caches/transforms-3/0facbce45045f8adbeeb88813a1c2b43/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+254                android:value="androidx.startup" />
+254-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/aceplus/.gradle/caches/transforms-3/0facbce45045f8adbeeb88813a1c2b43/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+255        </provider>
+256    </application>
+257
+258</manifest>

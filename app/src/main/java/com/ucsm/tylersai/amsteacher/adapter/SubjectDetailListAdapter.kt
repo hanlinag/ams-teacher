@@ -24,21 +24,21 @@ class SubjectDetailListAdapter(context: Context, arrayList: ArrayList<Attendance
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
-        var attendance: Attendance = arrayList!!.get(position)
+        val attendance: Attendance = arrayList!!.get(position)
 
-        var inflater = LayoutInflater.from(context)
-        var rowView = inflater.inflate(R.layout.subject_detail_listview_row, null, true)
+        val inflater = LayoutInflater.from(context)
+        val rowView = inflater.inflate(R.layout.subject_detail_listview_row, null, true)
 
 
-        var date = rowView.findViewById<TextView>(R.id.attendance_date)
-        var day = rowView.findViewById<TextView>(R.id.attendance_day)
-        var time = rowView.findViewById<TextView>(R.id.attendance_time)
+        val date = rowView.findViewById<TextView>(R.id.attendance_date)
+        val day = rowView.findViewById<TextView>(R.id.attendance_day)
+        val time = rowView.findViewById<TextView>(R.id.attendance_time)
 
         //getthe current date of day of week
-        val DATEFORMATT = "dd-MM-yyyy"
-        var formatofDate = SimpleDateFormat(DATEFORMATT)
-        var dateForWeekDay = formatofDate.parse(attendance.date)
-        var calendarObj = Calendar.getInstance()
+        val DateFormatt = "dd-MM-yyyy"
+        val formatofDate = SimpleDateFormat(DateFormatt)
+        val dateForWeekDay = formatofDate.parse(attendance.date)
+        val calendarObj = Calendar.getInstance()
         calendarObj.time = dateForWeekDay
 
         var weekofDay = ""

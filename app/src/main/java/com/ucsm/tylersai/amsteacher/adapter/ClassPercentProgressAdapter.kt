@@ -13,10 +13,12 @@ import lecho.lib.hellocharts.model.PieChartData
 import lecho.lib.hellocharts.model.SliceValue
 import java.text.SimpleDateFormat
 import java.util.*
-import kotlin.collections.ArrayList
 
-class ClassPercentProgressAdapter(val items: ArrayList<ClassAttendanceProgress>, val context: Context) :
-    RecyclerView.Adapter<myViewHolder>() {
+class ClassPercentProgressAdapter(
+    val items: ArrayList<ClassAttendanceProgress>,
+    val context: Context
+) :
+    RecyclerView.Adapter<MyViewHolder>() {
 
     private val DATE_FORMAT = "dd-MM-yyyy"
     var todaysDay: String = ""
@@ -30,9 +32,9 @@ class ClassPercentProgressAdapter(val items: ArrayList<ClassAttendanceProgress>,
     }
 
     // Inflates the item views
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): myViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
 
-        var view = myViewHolder(
+        val view = MyViewHolder(
             LayoutInflater.from(context).inflate(
                 com.ucsm.tylersai.amsteacher.R.layout.row_major_dashboard_chart,
                 parent,
@@ -40,13 +42,13 @@ class ClassPercentProgressAdapter(val items: ArrayList<ClassAttendanceProgress>,
             )
         )
 
-        var dateFormat = SimpleDateFormat(DATE_FORMAT)
-        var c = Calendar.getInstance().time
-        var today = dateFormat.format(c)
+        val dateFormat = SimpleDateFormat(DATE_FORMAT)
+        val c = Calendar.getInstance().time
+        val today = dateFormat.format(c)
 
-        var formatofDate = SimpleDateFormat(DATE_FORMAT)
-        var dateForWeekDay = formatofDate.parse(today)
-        var calendarObj = Calendar.getInstance()
+        val formatofDate = SimpleDateFormat(DATE_FORMAT)
+        val dateForWeekDay = formatofDate.parse(today)
+        val calendarObj = Calendar.getInstance()
 
         //get current time
         hour = calendarObj.get(Calendar.HOUR_OF_DAY)
@@ -78,22 +80,22 @@ class ClassPercentProgressAdapter(val items: ArrayList<ClassAttendanceProgress>,
         }
 
         val cc = Calendar.getInstance()
-        var year = cc.get(Calendar.YEAR)
-        var month = cc.get(Calendar.MONTH) + 1
-        var day = cc.get(Calendar.DAY_OF_MONTH)
+        val year = cc.get(Calendar.YEAR)
+        val month = cc.get(Calendar.MONTH) + 1
+        val day = cc.get(Calendar.DAY_OF_MONTH)
 
         var realDay: String? = ""
         var realMonth: String? = ""
 
-        if (day < 10) {
-            realDay = "0${day}"
+        realDay = if (day < 10) {
+            "0${day}"
         } else {
-            realDay = day.toString()
+            day.toString()
         }
-        if (month < 10) {
-            realMonth = "0${month}"
+        realMonth = if (month < 10) {
+            "0${month}"
         } else {
-            realMonth = month.toString()
+            month.toString()
         }
 
         todayForAttendanceKey = "$realDay$realMonth$year"
@@ -106,15 +108,25 @@ class ClassPercentProgressAdapter(val items: ArrayList<ClassAttendanceProgress>,
     }
 
     // Binds each animal in the ArrayList to a view,
-    override fun onBindViewHolder(holder: myViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.tvClassName?.text = items[position].className
         holder.tvMajorClassPercent?.text = items[position].overallPercentage
 
         //calculating pie chart
         //var attendancePercentage = attendancePercentage.toFloat()
         val pieData = ArrayList<SliceValue>()
-        pieData.add(SliceValue(items[position].overallPercentage.toFloat(), Color.argb(100, 222, 74, 91)))
-        pieData.add(SliceValue((100F - items[position].overallPercentage.toFloat()), Color.argb(100, 96, 153, 155)))
+        pieData.add(
+            SliceValue(
+                items[position].overallPercentage.toFloat(),
+                Color.argb(100, 222, 74, 91)
+            )
+        )
+        pieData.add(
+            SliceValue(
+                (100F - items[position].overallPercentage.toFloat()),
+                Color.argb(100, 96, 153, 155)
+            )
+        )
         val pieChartData = PieChartData(pieData)
         pieChartData.setHasCenterCircle(true).centerText1FontSize = 10
         pieChartData.setHasCenterCircle(true).centerText1 = "${items[position].overallPercentage.toFloat()}%"
@@ -124,7 +136,7 @@ class ClassPercentProgressAdapter(val items: ArrayList<ClassAttendanceProgress>,
     }
 }
 
-class myViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     // Holds the TextView that will add each animal to
     val tvClassName = view.tv_major_class
     val tvMajorClassPercent = view.tv_major_percent
